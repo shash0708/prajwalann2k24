@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbarr from "./components/Navbarr";
 import Home from "./components/Home";
 import About from "./components/About";
 import Tracks from "./components/Tracks";
@@ -10,31 +10,28 @@ import "./App.css";
 export default function App() {
   return (
     <div >
-      <section>
-        <Navbar />
-      
+   
+      <Navbarr />  
+       
         <Home />
-
-        <Hackathon />
-
-      </section>
+     
       {/* <section>
         <About />
       </section> */}
-      {/* <section>
-        <Hackathon />
-      </section> */}
-      <section>
+     
+      <Hackathon />
+     
+   
         <Tracks />
-      </section>
-      <section>
-        <Prize />
-      </section>
       
-      <section>
+      
+        <Prize />
+    
+      
+      
         
-        <AllCollapseExample />
-      </section> 
+        <AllCollapseExample />  
+      
     </div>
   );
 }

@@ -1,61 +1,59 @@
 .Hackathon {
-    background-color: #0a1a2e;
-    height: 100%;
-  }
-  
-  .elements {
-    display: flex;
-    align-items: center;
-  }
-  
-  .elements > div {
-    flex: 1;
-    margin: 0 20px; /* Add margins as needed */
-    color: white; /* Set text color to white */
-  }
-  
-  .elements img {
-    width: 100%; 
-   margin: 50px;
-    max-width:500px;/* Make sure the image doesn't exceed its container */
-  }
-  
-  /* Style for the text content */
-  .elements > div h1 {
-    margin-bottom: -50px; /* Adjust the margin-bottom to reduce the gap */
-    text-align: center; /* Center the text horizontally */
-  }
-  
-  .elements > div p {
-    display: flex;
-     justify-content: center;
-    text-align: justify; /* Center the text horizontally */
-  }
-  
-  .elements{
-    gap:2px;
-  }
-  @media screen and (max-width: 768px) {
-    .elements img {
-      margin: 50px;
-      width: 358px;
-      top: 705px;
-      left: -45px;
-      position: absolute;
-  }
-  .elements > div h1 {
-    margin-bottom: -368px;
-    text-align: center;
-    margin-top: 360px;
+  background-color: #0a1a2e;
+  height: 100vh; /* Set height to viewport height */
 }
+
+.elements {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column for mobile view */
+  align-items: center;
+}
+
+.elements > div {
+  flex: 1;
+  margin: 20px 0; /* Adjust margins for mobile view */
+  color: white;
+  width: 100%;
+}
+
+.elements img {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0; /* Adjust margins for mobile view */
+}
+
+.elements > div h1 {
+  margin-bottom: -20px; /* Adjust margin-bottom for mobile view */
+  text-align: center;
+  width: 100%;
+}
+
 .elements > div p {
   display: flex;
   justify-content: center;
   text-align: justify;
-  margin-left: 1px;
-  margin-right: 10px;
-  margin-top: 400px;
+  margin: 20px 0; /* Adjust margins for mobile view */
+  width: 100%;
 }
 
-  
+@media screen and (max-width: 768px) {
+  .Hackathon {
+    max-width: 100%; /* Adjust max-width for mobile view */
   }
+  .elements img {
+    width: 100%;
+    max-width: none; /* Remove max-width for mobile view */
+    top: auto;
+    left: auto;
+    position: static; /* Remove absolute positioning for mobile view */
+  }
+  .elements > div h1 {
+    margin-bottom: 0;
+    margin-top: 20px; /* Adjust margin-top for mobile view */
+  }
+  .elements > div p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px; /* Adjust margin-top for mobile view */
+  }
+}

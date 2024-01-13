@@ -1,77 +1,65 @@
 /* Home.css */
 
 .home {
-    position: relative;
-    overflow: hidden;
-    height: 100vh; /* Adjust the height as needed */
-    background-image: url('./g2.svg');
-    padding-right: 500px;
-  }
-
-  #d {
-    width: 40%;
-     /* Adjust the margin-right for the gap on the right */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    left: 824px;
-    top:130px;
-    animation: floatInPlace 4s ease-in-out infinite; /* Adjust the duration (4s) and easing as needed */
-    
+  position: relative;
+  overflow-x: hidden;
+  height: 100vh; /* Adjust the height as needed */
+  background: #0D1A1A;
 }
 
-.ww{
+#d {
+  width: 40%;
+  /* Adjust the margin-right for the gap on the right */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  left: 824px;
+  top: 130px;
+  animation: floatInPlace 4s ease-in-out infinite; /* Adjust the duration (4s) and easing as needed */
+}
+
+.ww {
   width: 160px;
   height: 60px;
   flex-shrink: 0;
-margin-top: 28px;
-background-color:#0D1A1A;
-color:white;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-margin-right: 10px;
+  margin-top: 28px;
+  background-color: #0D1A1A;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  margin-right: 10px;
 }
 
-
 .text {
-    text-align: center;
-    position: absolute;
-    top: 200px; /* Adjust the top position as needed */
-    left: 250px; /* Adjust the left position as needed */
+  text-align: center;
+  position: absolute;
+  top: 200px; /* Adjust the top position as needed */
+  left: 250px; /* Adjust the left position as needed */
+  /* Set the text color */
+  font-size: 20px;
+  z-index: 1;
+}
+
+.text h1,
+p,
+span {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .text {
+    top: 34px;
+    left: 50%; /* Center text horizontally */
+    transform: translateX(-50%); /* Center text horizontally */
     /* Set the text color */
     font-size: 20px;
-    z-index:1;
+    z-index: 1;
   }
-
-
-  .text h1,p, span {
-    color: white;
-  }
-  
- /* @keyframes floatInPlace {
-    0%, 100% {
-      transform: translate(0, 0) rotate(0deg);
-    }
-    50% {
-      transform: translate(0, 2%) rotate(2deg); /* Adjust the vertical translation and rotation */
-    /* }
-  } */
-  @media screen and (max-width: 768px) {
-    
-    .text {
-      text-align: center;
-      position: absolute;
-      top: 34px;
-      left:69px;/* Adjust the left position as needed */
-      /* Set the text color */
-      font-size: 20px;
-      z-index:1;
-    }
-    #d{
-      width: 60%;
-     /* Adjust the margin-right for the gap on the right */
+  #d {
+    width: 60%;
+    /* Adjust the margin-right for the gap on the right */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
     left: 39px;
     top: 304px;
-    }
-    
+  }
 }

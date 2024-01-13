@@ -1,87 +1,66 @@
-.Prize{
-    background-color: #000000;
-    padding: 50px;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    margin-left: -250px;
-  }
-
-  .ca{
-    background: linear-gradient(300.51deg, rgba(0, 255, 242, 0.24) -22.48%, rgba(55, 141, 137, 0.43) 41.14%, #24126A 75.53%);
-    border-radius: 20px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height:400px ;
-    width: 800px;
-  }
-
-.ca h2{
-    margin: 0;
-    font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
-    font-weight: 300;
-    font-size: 3.75rem;
-    line-height: 1.2;
-    color: #42E8E0;
-    font-weight: 700;
-    margin-top: 127px;
-    margin-bottom: 24px;
-    text-align: center;
-
+.Prize {
+  background-color: #000000;
+  padding: 20px; /* Adjust padding for mobile view */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px; /* Adjust margin for mobile view */
 }
-
-.ca h3{
-    
-        margin: 0;
-        font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
-        font-weight: 400;
-        font-size: 3rem;
-        line-height: 1;
-        color: #fff;
-        margin-top: 8px;
-        margin-bottom: 8px;
-        font-size: 1.5rem;
-    
-}
-@media screen and (max-width: 768px) {
 
 .ca {
   background: linear-gradient(300.51deg, rgba(0, 255, 242, 0.24) -22.48%, rgba(55, 141, 137, 0.43) 41.14%, #24126A 75.53%);
   border-radius: 20px;
-  padding: 22px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 230px;
-  width: 319px;
-  margin-left: -10px;
+  height: 400px;
+  width: 800px;
 }
 
 .ca h2 {
   margin: 0;
-  font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  font-size: 1.75rem;
+  font-size: 3.75rem;
   line-height: 1.2;
   color: #42E8E0;
   font-weight: 700;
-  margin-top: 44px;
+  margin-top: 127px;
   margin-bottom: 24px;
   text-align: center;
 }
 
 .ca h3 {
   margin: 0;
-  font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   font-size: 3rem;
   line-height: 1;
   color: #fff;
   margin-top: 8px;
   margin-bottom: 8px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .Prize {
+    margin-left: 0; /* Adjust margin for mobile view */
+  }
+
+  .ca {
+    padding: 22px;
+    height: auto; /* Adjust height to accommodate content */
+    width: 100%; /* Make it full width for mobile view */
+  }
+
+  .ca h2 {
+    font-size: 1.75rem;
+    margin-top: 44px;
+    margin-bottom: 24px;
+  }
+
+  .ca h3 {
+    font-size: 1.2rem;
+  }
 }
