@@ -56,4 +56,22 @@ margin-right: 10px;
   } */
   @media screen and (max-width: 768px) {
     
+    .text {
+      text-align: center;
+      position: absolute;
+      top: 34px;
+      left:69px;/* Adjust the left position as needed */
+      /* Set the text color */
+      font-size: 20px;
+      z-index:1;
+    }
+    #d{
+      width: 60%;
+     /* Adjust the margin-right for the gap on the right */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    left: 39px;
+    top: 304px;
+    }
+    
 }

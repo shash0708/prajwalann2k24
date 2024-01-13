@@ -19,7 +19,7 @@ class Navbar extends Component {
         <nav>
           <div>
             {/* Use an <img> tag for your logo */}
-            <img src='assests/name1.svg'alt="Logo" className="logo" />
+            {/* <img src='assests/name1.svg'alt="Logo" className="logo" /> */}
           </div>
           <div id="mobile" onClick={this.handleClick}>
             <i className={this.state.clicked ? "fa-sharp fa-solid fa-xmark" : "fas fa-bars"}></i>

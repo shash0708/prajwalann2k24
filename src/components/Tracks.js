@@ -3,6 +3,7 @@ import './css/Tracks.css';
 
 function Tracks() {
   return (
+  
     <div className='Tracks'>
       <p className='we'>Tracks</p>
       <div className='rr'>
@@ -26,6 +27,7 @@ function Tracks() {
         <p>This track is for Web3 enthusiasts to turn ideas into actual projects. It offers opportunities to work on blockchain-based problem statements focusing on different areas across NFTs, DeFi, and the metaverse to pursue a more sustainable future.</p>
       </div>
     </div>
+   
   );
 }
 

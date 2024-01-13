@@ -3,7 +3,7 @@ import { FileEarmarkPdf } from 'react-bootstrap-icons';
 
 import "./css/Home.css";
 
-const PDF_FILE_URL = "http://localhost:3000/r.pdf";
+const PDF_FILE_URL = "r.pdf";
 
 function Home() {
   const handleDownloadPDF = (url) => {

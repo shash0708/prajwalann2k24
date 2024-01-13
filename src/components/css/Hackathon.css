@@ -35,3 +35,27 @@
   .elements{
     gap:2px;
   }
+  @media screen and (max-width: 768px) {
+    .elements img {
+      margin: 50px;
+      width: 358px;
+      top: 705px;
+      left: -45px;
+      position: absolute;
+  }
+  .elements > div h1 {
+    margin-bottom: -368px;
+    text-align: center;
+    margin-top: 360px;
+}
+.elements > div p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 1px;
+  margin-right: 10px;
+  margin-top: 400px;
+}
+
+  
+  }

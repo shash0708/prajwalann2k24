@@ -9,18 +9,21 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <div >
       <section>
         <Navbar />
       
         <Home />
+
+        <Hackathon />
+
       </section>
       {/* <section>
         <About />
       </section> */}
-      <section>
+      {/* <section>
         <Hackathon />
-      </section>
+      </section> */}
       <section>
         <Tracks />
       </section>
@@ -31,7 +34,7 @@ export default function App() {
       <section>
         
         <AllCollapseExample />
-      </section>
+      </section> 
     </div>
   );
 }
