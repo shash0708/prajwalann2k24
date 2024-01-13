@@ -1,0 +1,37 @@
+.Hackathon {
+    background-color: #0a1a2e;
+    height: 100%;
+  }
+  
+  .elements {
+    display: flex;
+    align-items: center;
+  }
+  
+  .elements > div {
+    flex: 1;
+    margin: 0 20px; /* Add margins as needed */
+    color: white; /* Set text color to white */
+  }
+  
+  .elements img {
+    width: 100%; 
+   margin: 50px;
+    max-width:500px;/* Make sure the image doesn't exceed its container */
+  }
+  
+  /* Style for the text content */
+  .elements > div h1 {
+    margin-bottom: -50px; /* Adjust the margin-bottom to reduce the gap */
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .elements > div p {
+    display: flex;
+     justify-content: center;
+    text-align: justify; /* Center the text horizontally */
+  }
+  
+  .elements{
+    gap:2px;
+  }

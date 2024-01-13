@@ -1,0 +1,83 @@
+.Tracks {
+  background-color: #000000;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr); /* Two columns */
+  gap: 50px; 
+   
+  column-gap: -900px;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  margin-bottom: -5px; /* Offset the gap between rows */
+ }
+.Tracks p {
+  
+  font-weight: bolder;
+  text-align: center;
+  grid-column: span 2; /* Span two columns */
+}
+.we{
+
+font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
+ 
+}
+.rr:hover {
+  transform: translateY(-10px); /* Move the element up by 10 pixels on hover */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Add glow effect */
+}
+
+.rr {
+  /* Existing styles for .rr */
+  color: #c2c2c2;
+  background-color: #2324243b;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: -20px;
+  width: 380px;
+  height: 550px;
+  margin-left: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+}
+
+.rr img {
+  /* Existing styles for .rr img */
+  width: 100%;
+  height: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  max-height: 250px;
+  min-height: 250px;
+}
+
+.rr h2 {
+  /* Existing styles for .rr h2 */
+  margin: 0;
+  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 2.125rem;
+  line-height: 1.235;
+  font-weight: 700;
+}
+
+.rr p {
+  /* Existing styles for .rr p */
+  margin: 0;
+  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.rr p, .rr h2 {
+  /* Existing styles for .rr p, .rr h2 */
+  margin-top: 50px;
+  text-align: justify;
+}

@@ -1,0 +1,126 @@
+.t{
+    background-color: #000000;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+  
+  }
+
+  .we{
+ position: relative;
+    font-size: 3.5rem;
+      font-weight: 100;
+      text-align: center;
+      margin-bottom: 20px; /* Add margin between 'we' and accordion */
+         color: #ffffff;
+  }    
+.faq{
+  background-color: inherit;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+    margin-bottom: 96px;
+}
+
+.faq h6{
+    margin: 0;
+    font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.q {
+    margin-top: 100px; /* Add margin to create space between 'we' and accordion */
+  }
+  /* YourAccordionStyles.css */
+
+/* css/faq.css */
+
+.t {
+    background-color: #000000;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Set flex direction to column */
+  }
+  
+  .we {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin between 'we' and accordion */
+  }
+  
+  .custom-accordion {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the accordion horizontally */
+    background-color: #000000;
+    color: white;
+  }
+  
+  /* Add styles for accordion items and buttons as needed */
+  .custom-accordion .accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: #000;
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+  }
+  
+  .custom-accordion .accordion-button {
+    background-color: #000000;
+  }
+  
+  .custom-accordion .accordion-header {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  /* Other styles for accordion body, etc. */
+  
+  .q {
+    margin-top: 20px; /* Adjust margin between 'we' and accordion */
+  }
+
+  .custom-accordion .accordion-body {
+    background-color: #000000;
+    color: aliceblue; /* Customize the background color of the accordion body */
+  }
+.accordion-item:first-of-type {
+    border-top-left-radius: var(--bs-accordion-border-radius);
+    border-top-right-radius: var(--bs-accordion-border-radius);
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: #000;
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+.accordion-button{
+    background-color: #000;
+
+}
+.custom-accordion .accordion-header {
+    background-color: #ffffff; /* Change the background color of the Accordion header */
+    color: white; /* Change the text color of the Accordion header to white */
+  } 
+
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    background-color: #000000;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
