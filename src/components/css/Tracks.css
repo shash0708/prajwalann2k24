@@ -122,40 +122,5 @@ font-size: 3.5rem;
   text-align: justify;
 }
 
-.ca {
-  background: linear-gradient(300.51deg, rgba(0, 255, 242, 0.24) -22.48%, rgba(55, 141, 137, 0.43) 41.14%, #24126A 75.53%);
-  border-radius: 20px;
-  padding: 22px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 230px;
-  width: 319px;
-  margin-left: -10px;
-}
 
-.ca h2 {
-  margin: 0;
-  font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
-  font-weight: 300;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  color: #42E8E0;
-  font-weight: 700;
-  margin-top: 44px;
-  margin-bottom: 24px;
-  text-align: center;
-}
-
-.ca h3 {
-  margin: 0;
-  font-family: "Poppins","Roboto","Helvetica","Arial",sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 1;
-  color: #fff;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-size: 1.2rem;
-}
 }
