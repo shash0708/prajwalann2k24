@@ -1,0 +1,110 @@
+/* Common styles for larger screens */
+.line {
+    width: 200px;
+    border-top: 5px solid #ffffff; /* Change the color and style as needed */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    transform: rotate(90deg);
+    /* Adjust the margin as needed */
+  }
+  
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #323232;
+    align-items: center;
+    height: 50vh;
+    box-sizing: border-box;
+    /* Adjust this value based on your design */
+  }
+  
+  .Contact p {
+    padding-top: 20px; /* Adjust the padding as needed */
+  }
+  
+  .text2 {
+    position: absolute;
+    left: 300px;
+    top: 3810px;
+    color: white;
+    font-size: 3.5rem;
+  }
+  
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    left: 400px;
+    margin-top: 100px;
+    /* Two columns */
+  }
+  
+  .oi {
+    position: absolute;
+    left: 1150px;
+    margin-top: -150px;
+    color: white;
+    font-size: 1.4rem;
+  }
+  
+  .kk {
+    position: absolute;
+    left: 460px;
+    margin-top: -150px;
+    color: white;
+    font-size: 1.4rem;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .icon-container {
+    margin: 10px;
+    /* Adjust the margin as needed */
+  }
+  
+  /* Responsive styles for 768px and below */
+  @media screen and (max-width: 768px) {
+    .Contact {
+      height: 50vh; /* Adjust height as needed for responsive design */
+    }
+    .line {
+        width: 200px;
+        border-top: 5px solid #ffffff; /* Change the color and style as needed */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+        transform: rotate(180deg);
+        /* Adjust the margin as needed */
+      }
+      
+    .text2,
+    .oi,
+    .kk {
+      position: static;
+      margin-top: 0;
+      left: auto;
+      text-align: center;
+    }
+  
+    .flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: absolute;
+        
+        /* Two columns */
+      }
+      
+  }
+  

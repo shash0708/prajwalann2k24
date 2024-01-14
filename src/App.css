@@ -13,7 +13,7 @@
   padding: 0;
  width: auto;
  cursor:pointer;
- user-select: none;
+ /* user-select: none; */
 }
  .App {
   text-align: center;

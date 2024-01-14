@@ -1,14 +1,25 @@
 import React,{useRef} from 'react';
-import { useScroll } from 'framer-motion';
+import { motion,useScroll, useTransform } from 'framer-motion';
+import { Fade } from "react-awesome-reveal";
+
 import './css/Tracks.css';
 
 function Tracks() {
- 
-
+ const ref = useRef<HTMLDivElement>(null);
+ const {scrollYProgress}=useScroll({
+  target: ref.current,
+  offset:["0 1","1.33 1"],
+ });
+const scaleProgress = useTransform(scrollYProgress,[0,1],[0.8,1]);
+// const opacityProgress = useTransform(scrollYProgress,[0,1],[0.6,1]);
   return (
-  
-    <div className='Tracks'>
-      <p className='we'>Tracks</p>
+    
+   <div
+    className='Tracks'>
+      
+              <p className='we'>Tracks</p>
+            
+
       <div className='rr'>
         <img src='assests/laptop.svg'  alt='/'/>
         <h2>Development</h2>
@@ -29,7 +40,7 @@ function Tracks() {
         <h2>Blockchain & Web3</h2>
         <p>This track is for Web3 enthusiasts to turn ideas into actual projects. It offers opportunities to work on blockchain-based problem statements focusing on different areas across NFTs, DeFi, and the metaverse to pursue a more sustainable future.</p>
       </div>
-    </div>
+      </div>
    
   );
 }
