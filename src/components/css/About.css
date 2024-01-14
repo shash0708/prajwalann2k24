@@ -86,10 +86,11 @@ p {
 .vv{
  
     position: static;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+        text-align: justify;
     margin-top: 20px;
     display: flex;
+font-size: 1.07rem;
     justify-content: center;
     position: absolute;
     top: 80px;
@@ -100,11 +101,12 @@ p {
   position: static;
   font-family: 'Open Sans', sans-serif;  text-align: justify;
   margin-top: 20px;
+  font-weight: 800;
   display: flex;
   justify-content: center;
   position: absolute;
   top: 10px;
-  left: 662px;
+  left: 622px;
   font-size: 2.5rem;
 color:rgb(255, 255, 255);
 }

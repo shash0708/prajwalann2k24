@@ -26,7 +26,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:transparent;
+  background:blur(10px);
+  cursor:pointer;
+  font-family: 'Roboto Mono', monospace;
   z-index: 1;
 }
 #navbar {
@@ -97,7 +99,7 @@ nav {
     position:fixed;
     top: 65px;
     right: 0;
-    width: 150px;
+    width: 250px;
     z-index: 3;
     height: 100vh;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);

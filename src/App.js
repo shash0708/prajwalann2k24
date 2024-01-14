@@ -6,6 +6,7 @@ import Tracks from "./components/Tracks";
 import Hackathon from "./components/Hackathon";
 import Prize from "./components/Prize";
 import AllCollapseExample from "./components/Faq";
+import Contact from "./components/Contact";
 import "./App.css";
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
         
         <AllCollapseExample />  
       
+      <Contact/>
     </div>
   );
 }

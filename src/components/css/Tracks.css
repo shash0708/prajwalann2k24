@@ -70,16 +70,15 @@ font-size: 3.5rem;
 .rr p {
   /* Existing styles for .rr p */
   margin: 0;
-  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   line-height: 1.5;
-  margin-top: 16px;
+  margin-top: 1px;
 }
 
 .rr p, .rr h2 {
   /* Existing styles for .rr p, .rr h2 */
-  margin-top: 50px;
+  margin-top: 23px;
   text-align: justify;
 }
 

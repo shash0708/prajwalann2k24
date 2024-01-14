@@ -23,8 +23,8 @@
 }
 .ca h2 {
   margin: 0;
-  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
   font-size: 3.75rem;
   line-height: 1.2;
   color: #42E8E0;
@@ -36,8 +36,7 @@
 
 .ca h3 {
   margin: 0;
-  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;  font-weight: 400;
   font-size: 3rem;
   line-height: 1;
   color: #fff;

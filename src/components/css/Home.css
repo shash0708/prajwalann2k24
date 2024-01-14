@@ -20,11 +20,13 @@
   width: 160px;
   height: 60px;
   flex-shrink: 0;
-  margin-top: 28px;
+  margin-top: 40px;
   background-color: #26b4b4;
   color: white;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-  margin-right: 10px;
+  position: absolute;
+  left: -24px;
+  font-size: 1.5rem;
 }
 .oo {
  position: absolute;
@@ -50,8 +52,10 @@
 }
 
 .text h1{
-  font-family: 'Open Sans', sans-serif;
-      font-size:3.5rem;
+  font-family: 'Open Sans', sans-serif;   
+   font-size:3.5rem;
+   font-weight: 800;
+   
 }
 
 .wert{
@@ -80,10 +84,10 @@ span {
     justify-content: center;
   }
   #d {
-    width: 60%;
+    width: 80%;
     height: auto;
     position: absolute;
-    left: 81px;
+    left: 37px;
     top: 394px;
 }
 .ww {
@@ -97,7 +101,7 @@ span {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   margin-right: 10px;
   top: 88px;
-  left: -81px;
+
 }
 .text p {
   position: static;
@@ -105,7 +109,7 @@ span {
   margin-top: 81px;
   display: flex;
   justify-content: center;
-  font-size: 10px;
+  font-size: 15px;
   position: absolute;
 }
 .ww {
@@ -119,7 +123,8 @@ span {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   margin-right: 10px;
   top: 92px;
-  left: -80px;
+  left: -89px;
+
 }
 .text h1{
   

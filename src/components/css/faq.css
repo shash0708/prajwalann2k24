@@ -64,6 +64,7 @@
     background-color: #000000;
     color: white;
     font-size: 1.25rem !important;
+    font-family: 'Poppins', sans-serif;
 
   }
   
@@ -165,7 +166,7 @@
 
 .custom-accordion {
   width: 300px; /* Adjust the width as needed */
-  margin: 20px; /* Center the accordion horizontally */
+  /* Center the accordion horizontally */
 }
 .collapse.show {
 visibility: visible !important;

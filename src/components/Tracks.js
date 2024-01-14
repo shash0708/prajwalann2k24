@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useRef} from 'react';
+import { useScroll } from 'framer-motion';
 import './css/Tracks.css';
 
 function Tracks() {
+ 
+
   return (
   
     <div className='Tracks'>
@@ -23,7 +26,7 @@ function Tracks() {
       </div>
       <div className='rr'>
       <img src='assests/bl.svg'  alt='/'/>
-        <h2>Blockchain and Web3</h2>
+        <h2>Blockchain & Web3</h2>
         <p>This track is for Web3 enthusiasts to turn ideas into actual projects. It offers opportunities to work on blockchain-based problem statements focusing on different areas across NFTs, DeFi, and the metaverse to pursue a more sustainable future.</p>
       </div>
     </div>
