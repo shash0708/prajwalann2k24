@@ -34,7 +34,7 @@ export default function App() {
         
         <AllCollapseExample />  
       
-      <Contact/>
+      {/* <Contact/> */}
     </div>
   );
 }
