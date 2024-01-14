@@ -86,8 +86,9 @@
     font-size: 3.5rem !important;
   }
   .collapse {
-    visibility: visible;
-}
+    visibility: visible; /* You can remove this line as it's not needed for Bootstrap collapse */
+  }
+  
   /* Other styles for accordion body, etc. */
   
   .q {
@@ -166,7 +167,9 @@
   width: 300px; /* Adjust the width as needed */
   margin: 20px; /* Center the accordion horizontally */
 }
-
+.collapse.show {
+  display: block !important;
+}
 /* Add any other styling as needed */
 
 }
