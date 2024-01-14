@@ -50,19 +50,19 @@ class Navbar extends Component {
       to="Tracks" 
       spy={true} 
       smooth={true} 
-      offset={50} 
+      offset={-50} 
       duration={20}>Tracks</Link></li>
             <li><Link activeClass="active" 
       to="ca" 
       spy={true} 
       smooth={true} 
-      offset={-150} 
+      offset={-260} 
       duration={20}>Prizes</Link></li>
             <li><Link activeClass="active" 
       to="t" 
       spy={true} 
       smooth={true} 
-      offset={50} 
+      offset={-350} 
       duration={20}>Faq's</Link></li>
             <li><Link href="/">Contact</Link></li>
           </ul>
