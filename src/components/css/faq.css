@@ -54,7 +54,8 @@
     font-size: 3.5rem;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 20px; /* Add margin between 'we' and accordion */
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif; /* Add margin between 'we' and accordion */
   }
   
   .custom-accordion {
@@ -62,6 +63,8 @@
     margin: auto; /* Center the accordion horizontally */
     background-color: #000000;
     color: white;
+    font-size: 1.25rem !important;
+
   }
   
   /* Add styles for accordion items and buttons as needed */
@@ -73,23 +76,48 @@
   
   .custom-accordion .accordion-button {
     background-color: #000000;
+    font-size: 1.5rem !important;
+
   }
   
   .custom-accordion .accordion-header {
     background-color: #ffffff;
     color: white;
+    font-size: 3.5rem !important;
   }
-  
+  .collapse {
+    visibility: visible;
+}
   /* Other styles for accordion body, etc. */
   
   .q {
     margin-top: 20px; /* Adjust margin between 'we' and accordion */
   }
-
+  .white-text {
+    color: white;
+  }
   .custom-accordion .accordion-body {
     background-color: #000000;
-    color: aliceblue; /* Customize the background color of the accordion body */
+    color: rgb(244, 250, 255); /* Customize the background color of the accordion body */
   }
+.aq{
+  color: white;
+}
+ /* faq.css */
+.custom-accordion .white-text,
+.custom-accordion .white-text > * {
+  color: white !important;
+}
+/* faq.css */
+.custom-accordion .white-text,
+.custom-accordion .white-text > * {
+  color: white !important;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  color: white !important;
+}
+
 .accordion-item:first-of-type {
     border-top-left-radius: var(--bs-accordion-border-radius);
     border-top-right-radius: var(--bs-accordion-border-radius);
@@ -99,6 +127,10 @@
     background-color: #000;
     border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
+.custom-accordion .accordion-button {
+  background-color: #000000;
+  color: white;
+}
 
 .accordion-button{
     background-color: #000;
@@ -106,7 +138,9 @@
 }
 .custom-accordion .accordion-header {
     background-color: #ffffff; /* Change the background color of the Accordion header */
-    color: white; /* Change the text color of the Accordion header to white */
+    color: white;
+    
+    /* Change the text color of the Accordion header to white */
   } 
 
   .accordion-button {
@@ -130,7 +164,7 @@
 
 .custom-accordion {
   width: 300px; /* Adjust the width as needed */
-  margin: auto; /* Center the accordion horizontally */
+  margin: 20px; /* Center the accordion horizontally */
 }
 
 /* Add any other styling as needed */

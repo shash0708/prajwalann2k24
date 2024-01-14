@@ -6,7 +6,9 @@
   align-items: center;
   margin-left: -10px; /* Adjust margin for mobile view */
 }
-
+.we{
+  font-family: 'Open Sans', sans-serif;
+}
 
 .ca {
   background: linear-gradient(300.51deg, rgba(0, 255, 242, 0.24) -22.48%, rgba(55, 141, 137, 0.43) 41.14%, #24126A 75.53%);
