@@ -1,49 +1,54 @@
-.About{
+.About {
   background-color: #000000;
   padding: 50px;
   display: flex;
-  
   justify-content: center;
   align-items: center;
-  margin-left: -250px;
 }
+
 .card {
+  width: 100%;
+  max-width: 1068px;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  background: radial-gradient(circle at left, rgba(22, 19, 114, 0.3), rgb(8 0 255 / 23%), rgba(4, 246, 234, 0.15));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-   width:100%;
+.dj1 {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: 0;
+}
 
-    height: 450px;
-    border-radius: 15px; /* Adjust the radius as needed for your desired level of rounding */
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-    padding: 200px;
-    margin-left: 253px;
-   
-    background: radial-gradient(circle at left,rgba(22,19,114,.3),rgb(8 0 255 / 23%),rgba(4,246,234,.15));
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+p {
+  position: static;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  text-align: justify;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
-.dj{
-  display: flex;
-  justify-content: flex-end;
-  align-self:flex-end;
-  position: absolute;
-  left:652px;
-  top:-90px;
-  width: 800px;
-}
-.dj1{
-  display: flex;
-  justify-content: flex-end;
-  align-self:flex-end;
-  position: absolute;
-  left:-95px;
-  top:-80px;
-  width: 800px;
-}
-.col  {
-  display: flex;
-  justify-content: space-between;
-  
-}
-p{
-  margin-top: 80px;
 
+  .dj1 {
+    max-width: 100%; /* Adjust max-width for better scaling on smaller screens */
+  }
 }

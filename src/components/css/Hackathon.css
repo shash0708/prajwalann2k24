@@ -1,59 +1,67 @@
 .Hackathon {
   background-color: #0a1a2e;
-  height: 100vh; /* Set height to viewport height */
+  height: 100vh;
+  position: relative;
 }
 
 .elements {
+  position: absolute;
   display: flex;
-  flex-direction: column; /* Change flex direction to column for mobile view */
   align-items: center;
+  justify-content: center;
 }
 
 .elements > div {
   flex: 1;
-  margin: 20px 0; /* Adjust margins for mobile view */
+  margin: 20px; /* Adjust margin for spacing between elements */
   color: white;
-  width: 100%;
 }
 
 .elements img {
   width: 100%;
-  max-width: 500px;
-  margin: 20px 0; /* Adjust margins for mobile view */
+  max-width: 800px;
+  display: block; /* Remove flex properties for image */
 }
 
-.elements > div h1 {
-  margin-bottom: -20px; /* Adjust margin-bottom for mobile view */
-  text-align: center;
-  width: 100%;
+.ee {
+  display: flex; /* Apply flex to .ee to arrange elements in a row */
+  margin: 20px; /* Adjust margin for spacing */
+  color: white;
 }
 
+.ee h1 {
+  margin-bottom: 0; /* Remove negative margin */
+}
+
+.ee p {
+  margin-left: auto; /* Add margin to push p tag to the right */
+}
 .elements > div p {
   display: flex;
   justify-content: center;
   text-align: justify;
-  margin: 20px 0; /* Adjust margins for mobile view */
+  margin: 20px 0;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .Hackathon {
-    max-width: 100%; /* Adjust max-width for mobile view */
+    max-width: 100%;
   }
   .elements img {
     width: 100%;
-    max-width: none; /* Remove max-width for mobile view */
+    max-width: none;
     top: auto;
     left: auto;
-    position: static; /* Remove absolute positioning for mobile view */
+    position: static;
   }
   .elements > div h1 {
     margin-bottom: 0;
-    margin-top: 20px; /* Adjust margin-top for mobile view */
+    margin-top: 20px;
   }
   .elements > div p {
     margin-left: 0;
     margin-right: 0;
-    margin-top: 20px; /* Adjust margin-top for mobile view */
+    margin-top: 20px;
   }
 }

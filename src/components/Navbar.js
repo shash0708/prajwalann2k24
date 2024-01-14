@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import "./css/Navbar.css";
 import "../App.css";
 
-// Import your image here
-
 class Navbar extends Component {
   state = { clicked: false };
 
@@ -19,10 +17,14 @@ class Navbar extends Component {
         <nav>
           <div>
             {/* Use an <img> tag for your logo */}
-            {/* <img src='assests/name1.svg'alt="Logo" className="logo" /> */}
+            {/* <img src='assests/name1.svg' alt="Logo" className="logo" /> */}
           </div>
           <div id="mobile" onClick={this.handleClick}>
-            <i className={this.state.clicked ? "fa-sharp fa-solid fa-xmark" : "fas fa-bars"}></i>
+            {this.state.clicked ? (
+              <i className="fa-sharp fa-solid fa-xmark"></i>
+            ) : (
+              <i className="fas fa-bars"></i>
+            )}
           </div>
           <ul id="navbar" className={this.state.clicked ? "active" : ""}>
             <li><a href="/">Home</a></li>

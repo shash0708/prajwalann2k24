@@ -20,14 +20,18 @@ function Home() {
     <>
       <div className="text">
         <p>ACE PRESENTS</p>
-        <h1>PRAJWALAN 2024</h1>
-        <div className="icon-container">
-          <span>Prizes worth ₹ 30,000</span>
+       <img className='wert' src='assests/name1.svg' alt='/'/>
+          <div className='oo'> 
+        
+          <FileEarmarkPdf className='ws' size={30} color="red" onClick={() => handleDownloadPDF(PDF_FILE_URL)} />
+ 
+           <button  className="ww" style={{ borderRadius: '10px' }}>Register</button>
+         
+
+
         </div>
-        <div> 
-          <button className="ww" style={{ borderRadius: '10px' }}>Register</button>
-          <FileEarmarkPdf size={30} color="red" onClick={() => handleDownloadPDF(PDF_FILE_URL)} />
-        </div>
+
+
       </div>
 
       <div className="home">

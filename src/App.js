@@ -1,5 +1,6 @@
-import Navbarr from "./components/Navbarr";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Gay from "./components/Gay";
 import About from "./components/About";
 import Tracks from "./components/Tracks";
 import Hackathon from "./components/Hackathon";
@@ -11,15 +12,15 @@ export default function App() {
   return (
     <div >
    
-      <Navbarr />  
-       
+      <Navbar />  
+       {/* <Gay/> */}
         <Home />
      
-      {/* <section>
+      <section>
         <About />
-      </section> */}
+      </section>
      
-      <Hackathon />
+      {/* <Hackathon /> */}
      
    
         <Tracks />
