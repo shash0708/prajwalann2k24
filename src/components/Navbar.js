@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import "./css/Navbar.css";
 import "../App.css";
 
@@ -17,7 +18,7 @@ class Navbar extends Component {
         <nav>
           <div>
             {/* Use an <img> tag for your logo */}
-            {/* <img src='assests/name1.svg' alt="Logo" className="logo" /> */}
+            <img src='assests/name1.svg' alt="Logo" className="logo" />
           </div>
           <div id="mobile" onClick={this.handleClick}>
             {this.state.clicked ? (
@@ -27,12 +28,43 @@ class Navbar extends Component {
             )}
           </div>
           <ul id="navbar" className={this.state.clicked ? "active" : ""}>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Tracks</a></li>
-            <li><a href="/">Prizes</a></li>
-            <li><a href="/">Faq's</a></li>
-            <li><a href="/">Contact</a></li>
+          <li> <Link 
+      activeClass="active" 
+      to="text" 
+      spy={true} 
+      smooth={true} 
+      offset={-500} 
+      duration={20} 
+    
+    >
+      Home
+    </Link></li>
+            <li><Link activeClass="active" 
+      to="About" 
+      spy={true} 
+      smooth={true} 
+      offset={-100} 
+      duration={20}>About</Link>
+      </li>
+            <li><Link activeClass="active" 
+      to="Tracks" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={20}>Tracks</Link></li>
+            <li><Link activeClass="active" 
+      to="ca" 
+      spy={true} 
+      smooth={true} 
+      offset={-150} 
+      duration={20}>Prizes</Link></li>
+            <li><Link activeClass="active" 
+      to="t" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={20}>Faq's</Link></li>
+            <li><Link href="/">Contact</Link></li>
           </ul>
         </nav>
       </div>
