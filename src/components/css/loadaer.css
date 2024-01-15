@@ -3,8 +3,8 @@
   .loader-wrapper {
     z-index: 999; 
     position: absolute;
-    left: 800px;
-    top: 300px;
+    left: 700px;
+    top: 250px;
   /* Ensure the loader is above other components */
   }
   
