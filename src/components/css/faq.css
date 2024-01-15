@@ -86,10 +86,9 @@
     color: white;
     font-size: 3.5rem !important;
   }
-   .collapse {
-    visibility: visible; /* You can remove this line as it's not needed for Bootstrap collapse */
-    overflow: visible;
-  }
+  .collapse.show {
+    visibility: visible !important;
+    }
   /* Other styles for accordion body, etc. */
   
   .q {

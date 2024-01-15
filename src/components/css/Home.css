@@ -73,7 +73,11 @@ span {
 }
 
 @media screen and (max-width: 768px) {
-  
+  .home{
+    
+      overflow-x: hidden;
+    
+  }
   .text {
     top: 34px;
     left: 50%; /* Center text horizontally */

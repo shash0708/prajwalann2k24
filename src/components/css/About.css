@@ -63,6 +63,9 @@ p {
 }
 
 @media screen and (max-width: 2000px) and ( min-width :800px) {
+  .About{
+    overflow-x: hidden;
+  }
   .card {
     width: 100%;
     max-width: 1168px;
