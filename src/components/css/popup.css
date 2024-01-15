@@ -1,0 +1,279 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup {
+    background-color: #000000;
+    width: 400px; /* Adjust the width as needed */
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  z-index:5;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.kop {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.popup {
+    background-color: #000000;
+    width: 500px;
+    padding: 30px 40px;
+    position: absolute;
+    
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: black;
+    font-size: 30px;
+    color: #ff0404;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2 {
+    margin-bottom: 15px;
+    color: #0f72e5;
+}
+
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.popup a.kop {
+    display: inline-block;
+    width: 150px;
+    margin-top: 15px;
+    padding: 10px 0;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    /* border-radius: 5px; */
+}
+
+.popup a.kop:hover {
+    background-color: #084b8a;
+}
+
+.popup .timer {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #0f72e5;
+}
+
+.close{
+    color: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    height: 10vh;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.title {
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:50px;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.col {
+    margin-top: 8px;
+    width: 150px;
+    display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.col div {
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ /* Add margin for spacing */
+}
+
+input {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+
+label {
+    margin-left: 10px;
+    display: inline-block; /* Align label with input */
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.blinking {
+    animation: blinker 0.5s infinite;
+    color: rgb(233, 19, 19);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .popup{
+        overflow-x: hidden;
+      }
+    .popup {
+      background-color: #000000;
+      width: 100%;
+      max-width: 300px;
+      padding: 30px 40px;
+      position: absolute;
+      border-radius: 8px;
+      transform: translate(-50%, -50%);
+
+      font-family: "Poppins", sans-serif;
+      display: none;
+      text-align: center;
+    }
+  
+    .title {
+      margin-top: 0px;
+      color: rgb(255, 255, 255);
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 59px;
+      left: 40px;
+      text-align: center;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+  
+    .col {
+    
+      width: 100%; /* Adjust the width as needed */
+      display: grid;
+     position: absolute;
+     left: -10px;
+     top: 80px;
+     justify-content: center;
+     align-items: center;
+      grid-template-columns: repeat(2, 0fr); /* Two columns in mobile view */
+      grid-gap: 4px; /* Adjust the gap between grid items */
+      color: rgb(255, 255, 255);
+    }
+  
+    .col div {
+      width: 100%; /* Adjust the width as needed */
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      /* Add margin for spacing if necessary */
+    }
+  
+    input {
+      width: 100%; /* Adjust the width as needed */
+      background-color: rgba(0, 0, 0, 0.9);
+      display: flex;
+      align-items: center;
+      height: 35px;
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  

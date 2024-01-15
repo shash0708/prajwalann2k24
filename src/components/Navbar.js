@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import "./css/Navbar.css";
 import "../App.css";
+const PDF_FILE_URL = "r.pdf";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -10,6 +11,15 @@ class Navbar extends Component {
     this.setState({
       clicked: !this.state.clicked
     });
+  };
+ handleDownloadPDF = (url) => {
+    const fileName = url.split("/").pop();
+    const atag = document.createElement("a");
+    atag.href = url;
+    atag.setAttribute("download", fileName);
+    document.body.appendChild(atag);
+    atag.click();
+    atag.remove();
   };
 
   render() {
@@ -64,7 +74,7 @@ class Navbar extends Component {
       smooth={true} 
       offset={-350} 
       duration={20}>Faq's</Link></li>
-            <li><Link href="/">Contact</Link></li>
+            <li><Link href="/" onClick={() => this.handleDownloadPDF(PDF_FILE_URL)}>Resources</Link></li>
           </ul>
         </nav>
       </div>

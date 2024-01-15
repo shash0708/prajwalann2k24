@@ -6,15 +6,15 @@ import "./css/Home.css";
 const PDF_FILE_URL = "r.pdf";
 
 function Home() {
-  const handleDownloadPDF = (url) => {
-    const fileName = url.split("/").pop();
-    const atag = document.createElement("a");
-    atag.href = url;
-    atag.setAttribute("download", fileName);
-    document.body.appendChild(atag);
-    atag.click();
-    atag.remove();
-  };
+  // const handleDownloadPDF = (url) => {
+  //   const fileName = url.split("/").pop();
+  //   const atag = document.createElement("a");
+  //   atag.href = url;
+  //   atag.setAttribute("download", fileName);
+  //   document.body.appendChild(atag);
+  //   atag.click();
+  //   atag.remove();
+  // };
 
   return (
     <>
