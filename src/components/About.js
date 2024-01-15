@@ -17,12 +17,11 @@ function About() {
             <h1 className='vv1'>The Hackathon</h1>
             </Fade>
 
-      <p className='vv'>" SRKR ACE " is coming up with another fantastic hackathon called "prajwalan 2k24"<br></br> 
- Join this dynamic event to enhance your critical thinking, collaborate with skilled<br></br>  teams, and gaininvaluable experience.
-This 24hr hackathon fills up with exciting<br></br>  prizes, interesting refreshments, fun events , goodies and lot more. 
-Some highly<br></br>  qualified evaluators with a pinch of mentoring makes it more exhilarating.<br></br> 
-This hackathon is encouraging many bhooming technologies like  ml,web-<br></br>  development, cloud computing, cybersecurity, IoT etc.
-Your presence is highly<br></br> appreciated seize the opportunity to elevate your skills and create<br></br>  lasting connections!</p>
+      <p className='vv'>" SRKR ACE " is coming up with another fantastic hackathon called "Prajwalan 2k24" 
+ Join this dynamic event to enhance your critical thinking, collaborate with skilled<br></br>  teams, and gain invaluable experience.
+This 24hr hackathon fills up with exciting prizes, interesting refreshments, fun event, goodies and lot more. 
+Some highly qualified evaluators with a pinch of mentoring makes it more exhilarating.This hackathon is encouraging many booming technologies like  ml, web-development, cloud computing, cybersecurity, IoT etc.
+Your presence is highly appreciated seize the opportunity to elevate your skills and create lasting connections!</p>
    </div>
   </div>
   

@@ -28,7 +28,7 @@ const scaleProgress = useTransform(scrollYProgress,[0,1],[0.8,1]);
       <div className='rr'>
       <img src='assests/ml.svg'  alt='/'/>
         <h2>Machine Learning</h2>
-        <p>A track for all ML enthusiasts out there. It brings together participants to solve real-data challenges based on Sustainability by applying Machine learning.</p>
+        <p>A track for all ML enthusiasts out there. It brings  participants  to solve real-data challenges based on sustainability by applying Machine learning.</p>
       </div>
       <div className='rr'>
       <img src='assests/iot.svg'  alt='/'/>
@@ -38,7 +38,7 @@ const scaleProgress = useTransform(scrollYProgress,[0,1],[0.8,1]);
       <div className='rr'>
       <img src='assests/bl.svg'  alt='/'/>
         <h2>Blockchain & Web3</h2>
-        <p>This track is for Web3 enthusiasts to turn ideas into actual projects. It offers opportunities to work on blockchain-based problem statements focusing on different areas across NFTs, DeFi, and the metaverse to pursue a more sustainable future.</p>
+        <p>This track is for Web3 enthusiasts to turn ideas into actual projects.It offers opportunities to work on blockchain-based problem statements focusing on different areas across NFTs, DeFi, and the metaverse to pursue a more sustainable future.</p>
       </div>
       </div>
    

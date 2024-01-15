@@ -66,13 +66,13 @@ class Navbar extends Component {
       to="ca" 
       spy={true} 
       smooth={true} 
-      offset={-260} 
+      offset={-230} 
       duration={20}>Prizes</Link></li>
             <li><Link activeClass="active" 
       to="t" 
       spy={true} 
       smooth={true} 
-      offset={-350} 
+      offset={-150} 
       duration={20}>Faq's</Link></li>
             <li><Link href="/" onClick={() => this.handleDownloadPDF(PDF_FILE_URL)}>Resources</Link></li>
           </ul>

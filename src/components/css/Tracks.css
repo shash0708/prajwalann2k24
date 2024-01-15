@@ -92,19 +92,35 @@ font-size: 3.5rem;
       overflow-x: hidden;
     /* Add padding for better spacing */
   }
-
+  .vv p{
+    text-align: start;
+    margin-left: 22px;
+  }
+  .ca h2 {
+    font-size: 1.75rem;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.ca {
+  padding: 22px;
+  height: 202;
+  width: 100%;
+  max-width: 340px;
+  max-height: 196px;
+}
   .rr {
     color: #c2c2c2;
     background-color: #2324243b;
     border: 1px solid #FFFFFF;
     border-radius: 25px;
-    padding: 15px;
+    /* padding: -95px; */
+    padding:15px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: 100%; /* Set width to 100% */
     max-width: 300px; 
     margin-left: -10px;
@@ -125,6 +141,10 @@ font-size: 3.5rem;
 
   .rr p, .rr h2 {
     margin-top: 2px;
-    text-align: justify;
-  }
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-left: 22px;
+}
 }
