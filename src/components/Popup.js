@@ -18,7 +18,7 @@ const Popup = () => {
   }, []);
 
   useEffect(() => {
-    const endDate = new Date("2024-12-31T23:59:59"); // Set your desired end date and time
+    const endDate = new Date("2024-02-07T23:59:59"); // Set your desired end date and time
 
     const updateCountdown = () => {
       const now = new Date();
