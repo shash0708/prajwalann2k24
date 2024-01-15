@@ -19,7 +19,7 @@ function Home() {
         </Fade>
 
         <Fade triggerOnce={true} direction="down" duration={5000}>
-          <h1>PRAJAWALAN</h1>
+          <h1>PRAJWALAN</h1>
         </Fade>
         <div className='oo'>
           <Fade triggerOnce={true} direction="up" duration={10000}>
