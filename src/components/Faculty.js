@@ -70,7 +70,7 @@ function Faculty() {
           </div>
         </div>
         <div className='orgac'>
-          <h2 style={patronTextStyle}>Organizing Commitee</h2>
+          <h2>Organizing Commitee</h2>
           
           <div className='image4'>
             {ord.map((item, index) => (
