@@ -55,7 +55,7 @@
     height: auto;
     display: flex;
     position: relative;
-    top: 100px;
+    top: 150px;
     left: -457px;
     gap: 100px;
 }
@@ -123,7 +123,7 @@
     height: auto;
     display: flex;
     position: relative;
-    top: 200px;
+    top: 300px;
     left: -487px;
     gap: 80px;
 }
@@ -148,7 +148,7 @@
     position: absolute;
     margin-left:100px;
     left: 627px;
-    margin-top: 1700px;
+    margin-top: 2100px;
 }
 .ace h2{
 font-size: 30px;
@@ -166,7 +166,7 @@ font-size: 30px;
     position: absolute;
     margin-left:100px;
     left: 600px;
-    margin-top: 2700px;
+    margin-top: 3200px;
 }
 
 .orgac h2{
@@ -181,12 +181,12 @@ font-size: 30px;
     height: auto;
     display: flex;
     position: relative;
-    top: 250px;
+    top: 350px;
     /* margin-top: 100px; */
     left: -507px;    gap: 80px;
 }
 .orgac1{
-    margin-top: 2800px;
+    margin-top: 3500px;
 }
 
 .orgac1 p{
