@@ -1,0 +1,340 @@
+@media (max-width:2000px) and (min-width:800px) {
+    
+
+.faculty {
+    background-color: #000000;
+    padding: 50px;
+    /* Two columns */
+    gap: 50px; 
+     height:450vh;
+        display: flex;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin-bottom: -5px;
+   
+   /* Offset the gap between rows */
+   }
+
+   .patron {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left:100px;
+    left: 627px;
+    
+    margin-top: -1100px;
+    
+}
+
+.overall{
+    font-size: 2.5rem;
+    color: white;
+    /* overflow-y: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2000px;
+}
+
+
+
+.image {
+    width: 100%;
+    max-width: 705px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -397px;
+    gap: 80px;
+}
+.im{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -600px;
+    margin-right: 10px;
+}
+
+.convenor{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 20px;
+    margin-left:100px;
+    left: 627px;
+    margin-top: -150px;
+}
+.image1{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -250px;
+    gap: 80px;
+}
+
+.coordinator{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left:100px;
+    left: 627px;
+    margin-top: 800px;
+}
+
+.image2{
+    width: 100%;
+    max-width: 705px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -487px;
+    gap: 80px;
+}
+
+.image3{
+    width: 100%;
+    max-width: 705px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 250px;
+    /* margin-top: 100px; */
+    left: -407px;
+    gap: 80px;
+}
+
+.ace{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left:100px;
+    left: 627px;
+    margin-top: 1700px;
+}
+
+.orgac{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left:100px;
+    left: 600px;
+    margin-top: 2700px;
+}
+
+.image4{
+    width: 100%;
+    max-width: 605px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 250px;
+    /* margin-top: 100px; */
+    left: -407px;    gap: 80px;
+}
+.image5{
+    width: 100%;
+    max-width: 805px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 600px;
+    /* margin-top: 100px; */
+    left: -257px;
+    gap: 80px;
+}
+
+}
+@media screen and (max-width: 769px) {
+    .faculty {
+        background-color: #000000;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom:419px;
+    }
+
+    .patron {
+        position: static;
+        margin-left: -103px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    
+    .patron .convenor p{
+        font-size: 10px;
+
+    }
+    .patron h2 {
+        position: static;
+        font-size: 18px;
+        margin-left: 145px;
+        color: white;
+        margin-top: 20px;
+    }
+    .image {
+        width: 131px;
+        max-width: 100%;
+        height: 100%;
+        margin-left: 124px;
+        margin-top: 20px;
+    }
+    .convenor {
+        color: white;
+        margin-top: 37px;
+        font-size: 18px;
+        margin-left: 23px;
+    }
+    
+    
+    .convenor h2 {
+        color: white;
+        margin-top: 37px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .convenor p{
+        font-size: 10px;
+         
+    }
+
+    .image1 {
+        width: 131px;
+        max-width: 100%;
+    }
+    
+    .overall {
+        font-size: 1.5rem; /* Adjust as needed */
+        margin-top: 0; /* Adjust as needed */
+    }
+
+    .coordinator {
+        position: static;
+        margin-left: 37px;
+        margin-top: 29px;
+    }
+    
+   .coordinator img{
+   /* Adjust as needed */
+   width: 131px;
+   margin-left: 10px;
+   margin-top: 10px;
+ }
+ .coordinator p{
+    /* Adjust as needed */
+ font-size: 8px;
+}
+
+.coordinator h2{
+    /* Adjust as needed */
+    color: white;
+    font-size: 18px;
+}
+.image2 {
+    width: 131px;
+    margin-left: -21px;
+    gap: 202px;
+}
+
+.ace {
+    position: static;
+    margin-top: 28px;
+    margin-left: 8px;
+    color: white;
+}
+
+.ace h2{
+    color: white;
+    font-size: 18px;
+}
+.ace p{
+    font-size: 10px;
+
+}
+.image3 {
+    margin-left: 22px;
+    width: 131px;
+margin-top:14px;
+    gap: 200px;
+}
+
+.orgac {
+    position: static;
+    /* margin-left: 147px; */
+    margin-top: 51px;
+    margin-left: -439px;
+}
+
+.orgac h2 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin-top: -39px;
+    left: -124px;
+    margin-left: 224px;
+}
+.orgac p{
+    font-size: 10px;
+}
+.image4 {
+    margin-left: 462px;
+    width: 131px;
+    gap: 201px;
+}
+
+.orgac1 {
+    position: static;
+    /* margin-left: 147px; */
+    margin-top: 50px;
+    margin-left: -398px;
+}
+
+.orgac1 h2 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin-top: -39px;
+    left: -124px;
+    margin-left: 224px;
+}
+.orgac1 p{
+    font-size: 10px;
+}
+.image5 {
+    margin-left: 421px;
+    width: 131px;
+    margin-bottom: 100px;
+gap:200px;
+}
+    /* .image
+   
+     {
+        width: 100px;
+        max-width: 100%; /* Make images responsive */
+        /* height: 100%;
+        display: flex;
+       
+        gap: 20px; 
+        margin-top: 20px; 
+    }  */
+}

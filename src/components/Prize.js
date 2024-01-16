@@ -10,7 +10,7 @@ function Prize() {
     
     <div className='ca'>
          <h2>₹ 30,000+</h2>
-         <h3>Worth of Prizes</h3>
+         <h3>Prize Pool</h3>
     </div>
     </div>
     </>

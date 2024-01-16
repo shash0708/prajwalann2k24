@@ -1,4 +1,4 @@
-.About {
+.About1 {
   background-color: #000000;
   padding: 50px;
   display: flex;
@@ -6,8 +6,9 @@
   align-items: center;
 }
 
-.card {
+.card1 {
   width: 100%;
+
   max-width: 1078px;
   height: auto;
   border-radius: 15px;
@@ -16,7 +17,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dj1 {
+.dj11 {
   width: 100%;
   max-width: 350px;
   margin-left: auto;
@@ -25,8 +26,18 @@
   position: relative;
   top: 0;
 }
+.dj12 {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
 
-.col {
+.col1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,14 +55,14 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .card {
+  .card1 {
     padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
 
-  .dj1 {
+  .dj11 {
     max-width: 100%; /* Adjust max-width for better scaling on smaller screens */
   }
-  .vv1{
+  .vv2{
     
       display: flex;
       justify-content: center;
@@ -63,10 +74,10 @@ p {
 }
 
 @media screen and (max-width: 2000px) and ( min-width :800px) {
-  .About{
+  .About1{
     overflow-x: hidden;
   }
-  .card {
+  .card1 {
     width: 100%;
     max-width: 1168px;
     height: 388px;
@@ -75,18 +86,28 @@ p {
     background: radial-gradient(circle at left, rgba(22, 19, 114, 0.3), rgb(8 0 255 / 23%), rgba(4, 246, 234, 0.15));
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.dj1 {
+.dj11 {
   width: 100%;
-  max-width: 320px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: -90px;
+  left: -353px;
+}
+.dj12 {
+  width: 100%;
+  max-width:600px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   position: absolute;
-  top: 66px;
-  left: 37px;
+  top: -120px;
+  left: 500px;
 }
 
-.vv{
+.vv1{
  
     position: static;
     font-family: 'Montserrat', sans-serif;
@@ -100,7 +121,7 @@ font-size: 1.07rem;
     left: 400px;
     padding-right: 10px;
 }
-.vv1{
+.vv2{
  
   position: static;
   font-family: 'Open Sans', sans-serif;  text-align: justify;
@@ -110,11 +131,11 @@ font-size: 1.07rem;
   justify-content: center;
   position: absolute;
   top: 10px;
-  left: 622px;
+  left: 449px;
   font-size: 2.5rem;
 color:rgb(255, 255, 255);
 }
-.re{
+.re1{
   margin-top: 10px;
 }
 }

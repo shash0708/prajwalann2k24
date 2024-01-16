@@ -3,12 +3,14 @@ import { HashLoader } from "react-spinners";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
+import About1 from "./About1";
 import Tracks from "./Tracks";
 import Prize from "./Prize";
 import AllCollapseExample from "./Faq";
-import Contact from "./Contact";
+import Faculty from "./Faculty";
 import Popup from "./Popup";
 import './css/loadaer.css'
+import Hackathon from "./Hackathon";
 function Loader() {
   const [loading, setLoading] = useState(false);
 
@@ -17,7 +19,7 @@ function Loader() {
 
     const timeoutId = setTimeout(() => {
       setLoading(false);
-    }, 4300);
+    }, 1000);
     return () => {
       clearTimeout(timeoutId);
     };
@@ -33,13 +35,16 @@ function Loader() {
         <>
           <Navbar />
           <Home />
-          <Popup />
-          <section>
-            <About />
-          </section>
+          {/* <Popup /> */}
+        
+            {/* <About1 /> */}
+          
+          <About />
+          {/* <Hackathon/> */}
           <Tracks />
           <Prize />
           <AllCollapseExample />
+          <Faculty/>
         </>
       )}
     </div>
