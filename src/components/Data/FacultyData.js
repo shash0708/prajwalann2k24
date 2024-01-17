@@ -1,15 +1,15 @@
 import hod from '../as/hod.jpeg'
-import ravi from '../as/ravi1.jpg'
-import surya from '../as/surya.jpg'
+import ravi from '../as/ravi2.jpg'
+import surya from '../as/surya21.jpg'
 import rs from '../as/ravis1.jpg'
 import r from '../as/ragh1.jpg'
 import d from '../as/da.jpeg'
 import b from '../as/bh.jpg'
 import h from '../as/hema2.jpg'
-import k from '../as/kam1.jpeg'
-import p from '../as/pa1.jpg'
+import k from '../as/kam.jpg'
+import p from '../as/pavan.jpg'
 import dr from '../as/dd.jpg'
-import pr from '../as/pp.jpg'
+import pr from '../as/pp1.jpg'
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/faculty.css';
 import { ace, convenor, coordinators, ord, orgac, patron } from './Data/FacultyData';
-
+import { useScroll } from 'framer-motion';
 function Faculty() {
   const patronTextStyle = {
     fontSize: '20px', // You can adjust the font size here
@@ -11,7 +11,7 @@ function Faculty() {
   };
 
 
-  
+
 
   return (
     <div className='faculty' >
