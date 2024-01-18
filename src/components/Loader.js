@@ -3,6 +3,7 @@ import { HashLoader } from "react-spinners";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
+import Organizer from "./Organizer";
 import About1 from "./About1";
 import Tracks from "./Tracks";
 import Prize from "./Prize";
@@ -41,6 +42,11 @@ function Loader() {
           
           <About />
           {/* <Hackathon/> */}
+          <Organizer/>
+          {/* <section>
+            <About1/>
+          </section> */}
+          
           <Tracks />
           <Prize />
           <AllCollapseExample />

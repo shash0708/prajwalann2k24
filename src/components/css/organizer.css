@@ -1,0 +1,155 @@
+.Tracks123 {
+    background-color: #000000;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* Two columns */
+    gap: 50px; 
+     
+    column-gap: -900px;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin-bottom: -5px; /* Offset the gap between rows */
+   }
+  .Tracks123 p {
+    
+    font-weight: bolder;
+    text-align: center;
+    grid-column: span 2; /* Span two columns */
+  }
+  .we123{
+  
+  font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
+  }
+  .rr123:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(134, 94, 243, 0.7);}
+ 
+
+  
+  .rr123 {
+    /* Existing styles for .rr123 */
+    color: #c2c2c2;
+    background-color: #131bbd3b;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: -20px;
+    width: 380px;
+    height: 550px;
+    margin-left: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+  }
+
+  
+  
+  .rr123 img {
+    /* Existing styles for .rr123 img */
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-height: 250px;
+    min-height: 250px;
+  }
+  
+  .rr123 h2 {
+    /* Existing styles for .rr123 h2 */
+    margin: 0;
+    font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.235;
+    font-weight: 700;
+  }
+  
+  .rr123 p {
+    /* Existing styles for .rr123 p */
+    margin: 0;
+    font-family: 'Montserr123at', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1px;
+  }
+  
+  .rr123 p, .rr123 h2 {
+    /* Existing styles for .rr123 p, .rr123 h2 */
+    margin-top: 23px;
+    text-align: justify;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Tracks123 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 10px; 
+      
+        overflow-x: hidden;
+      /* Add padding for better spacing */
+    }
+    .vv p{
+      text-align: start;
+      margin-left: 22px;
+    }
+    .ca h2 {
+      font-size: 1.75rem;
+      margin-top: 31px;
+      margin-bottom: 16px;
+  }
+  .ca {
+    padding: 22px;
+    height: 202;
+    width: 100%;
+    max-width: 340px;
+    max-height: 196px;
+  }
+    .rr123 {
+      color: #c2c2c2;
+      background-color:#131bbd3b;
+      border: 1px solid #FFFFFF;
+      border-radius: 25px;
+      /* padding: -95px; */
+      padding:15px;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      margin-bottom: 50px;
+      width: 100%; /* Set width to 100% */
+      max-width: 300px; 
+      margin-left: -10px;
+      /* Add max-width for better responsiveness */
+      /* Center the element in the container */
+      height: auto; /* Adjust height to auto */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  
+    .rr123 img {
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+      min-height: 250px;
+      margin-left: auto; /* Center the image in the container */
+      margin-right: auto; /* Center the image in the container */
+    }
+  
+    .rr123 p, .rr123 h2 {
+      margin-top: 2px;
+      justify-content: space-evenly;
+      display: flex;
+      align-items: center;
+      text-align: start;
+      margin-left: 22px;
+  }
+  }
+  

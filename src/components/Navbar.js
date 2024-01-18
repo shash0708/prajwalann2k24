@@ -100,6 +100,12 @@ class Navbar extends Component {
       offset={-150} 
       duration={20}>Faq's</Link></li>
             <li><Link href="/" onClick={() => this.openPDFInNewPage(PDF_FILE_URL)}>Resources</Link></li>
+            <li><Link activeClass="active" 
+      to="t" 
+      spy={true} 
+      smooth={true} 
+      offset={500} 
+      duration={20}>Know us</Link></li>
           </ul>
         </nav>
       </div>

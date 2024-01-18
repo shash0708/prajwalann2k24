@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './css/faculty.css';
 import { ace, convenor, coordinators, ord, orgac, patron } from './Data/FacultyData';
-import { useScroll } from 'framer-motion';
+import { useScroll,motion, useTransform } from 'framer-motion';
 function Faculty() {
   const patronTextStyle = {
     fontSize: '20px', // You can adjust the font size here
@@ -10,13 +10,24 @@ function Faculty() {
     fontSize: '14px', // You can adjust the font size here
   };
 
-
-
+const ref = useRef<HTMLDivElement>(null);
+const {scrollYProgress} = useScroll({
+  target:ref,
+  offset :["0 1","1.33 1"],
+});
+const sc=useTransform(scrollYProgress,[0,1],[0.5,1]);
+const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
 
   return (
-    <div className='faculty' >
-      <div className='overall'>
-        <div className='patron'>
+    <div 
+    
+    
+    
+    className='faculty' >
+      <div 
+    className='overall'>
+        <div 
+    className='patron'>
           <h2>Patron</h2>
           <div className='image'>
             {patron.map((item, index) => (
