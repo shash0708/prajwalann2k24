@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FileEarmarkPdf } from 'react-bootstrap-icons';
 import { Fade } from 'react-awesome-reveal';
+import Timer from './Timer';
 import Popup from './Popup';
 import './css/Home.css';
 
@@ -24,6 +25,7 @@ function Home() {
   return (
     <>
       <div className="text">
+     
         <Fade direction="down" triggerOnce={true} duration={3000}>
           <h6 className="w">ASSOCIATION OF COMPUTER ENGINEERS </h6>
         </Fade>

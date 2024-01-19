@@ -3,45 +3,40 @@ import { MediaData } from './Data/Data';
 import './css/contact.css';
 import phoneIcon from './as/ph.svg';
 
-const iconStyle = {
-  width: '100px',  // Adjust the width as needed
-  height: '80px', // Adjust the height as needed
+const iconStyle1 = {
+  width: '100px',
+  height: '100px',
+  marginRight: '8px',
+  verticalAlign: 'middle', // Align the icon vertically with the text
 };
-
-const phoneNumbers = [
-  '123-456-7890',
-  '987-654-3210',
-  '555-123-4567',
-];
+const PDF_FILE_URL =
+  'https://unstop.com/p/prajwalan-2k24-sagi-rama-krishnam-raju-engineering-college-srkrec-bhimavaram-861159?lb=6yge2wf&utm_medium=Share&utm_source=WhatsApp';
+  const openPDFInNewPage = () => {
+    window.open(PDF_FILE_URL, '_blank');
+  };
 
 const MainPage = () => {
   return (
     <React.Fragment>
       <main>
         <div className="Contact">
-          <h1 className='oi'>Contact Us</h1>
-          <ul className="phone-list" style={{position:'absolute',left:'1150px',marginTop:'50px',color:'white'}}>
-            {phoneNumbers.map((number, index) => (
-              <li key={index}>
-                <img src={phoneIcon} alt='phone' style={{ width: '20px', height: '20px', marginRight: '-8px', }} />
-                {number}
-              </li>
-            ))}
-          </ul>
-          <div className='line'></div>
-
           <h1 className='kk'>Follow Us</h1>
-          <div className="flex flex-wrap justify-around">
+          <div className="social-media">
             {MediaData.map((item, index) => (
               <div key={index} className="icon-container">
                 <a href={item.href} target="_blank" rel="noopener noreferrer">
-                  <img src={item.img} alt='media' style={iconStyle} />
+                  <img src={item.img} alt='media' className="social-icon" />
                 </a>
               </div>
             ))}
           </div>
+          <div className="buttons-container">
+         
+<button className="contact-button" onClick={() => window.location.href = "mailto:sssssz@gmail.com"}>Contact Us</button>
+            <button className="register-button"  onClick={openPDFInNewPage}>Register</button>
+            <button className="about-button">About</button>
 
-          
+          </div>
         </div>
       </main>
     </React.Fragment>

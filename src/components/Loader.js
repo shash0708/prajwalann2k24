@@ -59,7 +59,7 @@ function Loader() {
           <AllCollapseExample />
           <Faculty/>
           <ControlledCarousel/>
-          {/* <MainPage/> */}
+          <MainPage/>
         </>
       )}
     </div>

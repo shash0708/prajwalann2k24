@@ -31,7 +31,7 @@ font-family: 'Open Sans', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-   
+       height: 50vh;
       /* Center the grid vertically */
        margin-bottom: -5px;
       /* Adjust margin or padding based on your design needs */

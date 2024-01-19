@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
+import Timer from'./Timer'
 import "./css/Navbar.css";
 import "../App.css";
 const PDF_FILE_URL = "https://drive.google.com/drive/folders/18hcG1CnTTpnntdWiw6KQWiN7K1t93S3v?usp=sharing";
@@ -116,6 +117,8 @@ class Navbar extends Component {
       offset={500} 
       duration={20}>Know us</Link></li>
           </ul>
+          
+       
         </nav>
       </div>
     );

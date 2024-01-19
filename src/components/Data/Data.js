@@ -1,6 +1,5 @@
 import facebook from '../as/fb.svg'
 import instagram from '../as/ig.svg'
-import whatsapp from '../as/wh.svg'
 import youtube from '../as/lk.svg'
 import contact from '../as/ph.svg'
 
@@ -8,25 +7,21 @@ export const MediaData = [
     {
         img:youtube,
         title: "youtube",
-        href:"https://www.youtube.com/@gooddomicroprojects/"
+        href:"https://www.linkedin.com/company/association-of-computer-engineers-ace/"
       },
       {
         img:facebook,
         title: "facebook",
-        href: "https://www.facebook.com"
+        href: "https://www.facebook.com/srkrace"
       },
       {
         img:instagram,
         title: "instagram",
-        href: "https://www.instagram.com"
+        href: "https://www.instagram.com/srkr_ace?igsh=MXZkN3lpanByZGhvOQ=="
       },
    
     
-      {
-        img:whatsapp,
-        title: "whatsapp",
-        href: "https://whatsapp.com"
-      },
+     
 ]
 
 export const contact1 =[

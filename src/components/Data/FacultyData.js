@@ -9,7 +9,7 @@ import h from '../as/hema2.jpg'
 import k from '../as/kam.jpg'
 import p from '../as/pavan.jpg'
 import dr from '../as/dd.jpg'
-import pr from '../as/pp1.jpg'
+import pr from '../as/pp121.jpg'
 
 
 
