@@ -13,13 +13,11 @@ function Organizer() {
       <div className='rr123'>
         <img src='assests/ace.svg'  alt='/'/>
         <h2>Association of Computer Engineers</h2>
-        <p>A track to develop Websites and Mobile Apps based on the problem statements the problem statements we have for you, in line with the theme.</p>
-      </div>
+        <p>Within the College, the Department houses the Association of Computer Engineering Students (ACE), a dynamic platform that orchestrates various technical events throughout the year. From technical quizzes to paper presentations, group discussions, debates, and programming contests, ACE enhances the technical and communication skills of not only computer science students but also the broader student community.</p>  </div>
       <div className='rr123'>
       <img src='assests/srkr.svg'  alt='/'/>
         <h2>Sagi Ramakrishnam Raju Engineering College</h2>
-        <p>A track for all ML enthusiasts out there. It brings  participants  to solve real-data challenges based on sustainability by applying Machine learning.</p>
-      </div>
+        <p>Sagi Rama Krishnam Raju Engineering College (SRKR) stands as a beacon of excellence, founded in 1980 with a visionary mission to empower rural students through technical education. Over the years, it has evolved into a pioneering institution, sprawling across 30 acres of lush greenery, housing state-of-the-art facilities for science and technology. The institution's commitment to inclusive and culturally responsive teaching has shaped graduates with a creative, confident, and logical approach to nation-building.</p>   </div>
       {/* <div className='rr'>
       <img src='assests/iot.svg'  alt='/'/>
         <h2>Electronics and IoT</h2>

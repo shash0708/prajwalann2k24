@@ -6,11 +6,13 @@ import About from "./About";
 import Organizer from "./Organizer";
 import About1 from "./About1";
 import Tracks from "./Tracks";
+import Gallery from "./Gallery";
 import Prize from "./Prize";
 import AllCollapseExample from "./Faq";
 import Faculty from "./Faculty";
 import Popup from "./Popup";
 import './css/loadaer.css'
+import MainPage from "./Contact";
 import Hackathon from "./Hackathon";
 import ControlledCarousel from "./Sebms";
 function Loader() {
@@ -49,10 +51,15 @@ function Loader() {
           </section> */}
           
           <Tracks />
+         
+      
+         <Gallery/>
+        
           <Prize />
           <AllCollapseExample />
           <Faculty/>
           <ControlledCarousel/>
+          {/* <MainPage/> */}
         </>
       )}
     </div>
