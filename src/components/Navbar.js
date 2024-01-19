@@ -102,7 +102,7 @@ class Navbar extends Component {
               offset={isMobile ? -600 : -1400}  
               duration={20}
             >
-              Gallery
+              HOF
             </Link></li>
             <li><Link 
               activeClass="active" 
