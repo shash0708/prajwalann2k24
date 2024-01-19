@@ -19,7 +19,7 @@ const PDF_FILE_URL =
   const openPDFInNewPage1 = () => {
     window.open(PDF_FILE_URL1, '_blank');
   };
-  const phoneNumber = '9167581555'; // Replace with your phone number
+  const phoneNumber = '+1234567890'; // Replace with your phone number
 
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -43,7 +43,7 @@ const MainPage = () => {
          
 <button className="contact-button" onClick={() => window.location.href = "mailto:sssssz@gmail.com"}>Contact Us</button>
             <button className="register-button"  onClick={openPDFInNewPage}>Register</button>
-            <button className="about-button"onClick={handleCall}>Resources</button>
+            <button className="about-button" onClick={openPDFInNewPage1}>Resources</button>
 
           </div>
         </div>
