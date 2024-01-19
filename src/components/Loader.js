@@ -52,7 +52,7 @@ function Loader() {
           <Prize />
           <AllCollapseExample />
           <Faculty/>
-          {/* <ControlledCarousel/> */}
+          <ControlledCarousel/>
         </>
       )}
     </div>

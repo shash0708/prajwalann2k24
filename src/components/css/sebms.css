@@ -1,12 +1,53 @@
-.sebms {
-    background-color: #000000;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr); /* Two columns */
-    gap: 50px; 
-     
-    column-gap: -900px;
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    margin-bottom: -5px; /* Offset the gap between rows */
-   }
+/* For screens between 992px and 2000px */
+@media (max-width: 2000px) and (min-width: 992px) {
+    .sebms{
+        background-color: #000000;
+        padding: 10px;
+       /* Center the grid vertically */
+        margin-bottom: -5px; /* Offset the gap between rows */
+       }
+  
+    .carousel-image {
+      max-width: 100%;
+      max-height: 100%;
+      /* Adjust padding based on your design needs */
+      padding: 300px; 
+      margin-top: -203px/* Adjust as needed */
+    }
+    .slider-text {
+   
+font-size: 3.5rem;
+font-weight: bolder;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+
+}
+  }
+  
+  /* For screens up to 991px */
+  @media screen and (max-width: 991px) {
+    .sebms {
+      background-color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      /* Center the grid vertically */
+       margin-bottom: -5px;
+      /* Adjust margin or padding based on your design needs */
+      margin-top: -432px; /* Adjust as needed */
+    }
+    .slider-text {
+   
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: -5px;
+        margin-top: -311px;
+        position: absolute;
+    }
+    
+        }
+  
+  

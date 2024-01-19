@@ -1,4 +1,4 @@
-
+@media  (max-width:2000px) and (min-width:992px) {
 
   .loader-wrapper {
     z-index: 999; 
@@ -12,13 +12,19 @@
     background: black;
     height: 100vh;
   }
-
+}
   @media screen  and (max-width:991px) {
     .loader-wrapper {
         z-index: 999; 
       position: absolute;
         left: 120px;
         top: 250px;
+      /* Ensure the loader is above other components */
+      }
+      .loader-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       /* Ensure the loader is above other components */
       }
       
