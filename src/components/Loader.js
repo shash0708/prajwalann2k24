@@ -8,6 +8,8 @@ import About1 from "./About1";
 import Tracks from "./Tracks";
 import Gallery from "./Gallery";
 import Prize from "./Prize";
+import { Fade } from 'react-awesome-reveal';
+import Timer1 from "./Timer1";
 import AllCollapseExample from "./Faq";
 import Faculty from "./Faculty";
 import Popup from "./Popup";
@@ -40,10 +42,11 @@ function Loader() {
           <Navbar />
           <Home />
           {/* <Popup /> */}
-        
+        {/* <Timer1/> */}
             {/* <About1 /> */}
           
           <About />
+          
           {/* <Hackathon/> */}
           <Organizer/>
           {/* <section>

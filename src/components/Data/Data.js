@@ -12,7 +12,7 @@ export const MediaData = [
       {
         img:facebook,
         title: "facebook",
-        href: "https://www.facebook.com/srkrace"
+        href: "https://www.facebook.com/srkrcseace?mibextid=ZbWKwL"
       },
       {
         img:instagram,

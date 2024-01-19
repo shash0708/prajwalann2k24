@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FileEarmarkPdf } from 'react-bootstrap-icons';
 import { Fade } from 'react-awesome-reveal';
-import Timer from './Timer';
+
+import Timer from "./Timer1";
+
 import Popup from './Popup';
 import './css/Home.css';
 
@@ -26,7 +28,7 @@ function Home() {
     <>
       <div className="text">
      
-        <Fade direction="down" triggerOnce={true} duration={3000}>
+        <Fade direction="down" triggerOnce={true} duration={1000}>
           <h6 className="w">ASSOCIATION OF COMPUTER ENGINEERS </h6>
         </Fade>
         <Fade direction="up" triggerOnce={true} duration={4500}>
@@ -45,6 +47,7 @@ function Home() {
         </div>
         <div className='tim'>
         <Popup />
+        {/* <Timer/> */}
         </div>
       </div>
 
