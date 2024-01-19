@@ -14,6 +14,11 @@ const PDF_FILE_URL =
   const openPDFInNewPage = () => {
     window.open(PDF_FILE_URL, '_blank');
   };
+  const PDF_FILE_URL1 =
+  'https://drive.google.com/drive/folders/18hcG1CnTTpnntdWiw6KQWiN7K1t93S3v'
+  const openPDFInNewPage1 = () => {
+    window.open(PDF_FILE_URL1, '_blank');
+  };
 
 const MainPage = () => {
   return (
@@ -34,7 +39,7 @@ const MainPage = () => {
          
 <button className="contact-button" onClick={() => window.location.href = "mailto:sssssz@gmail.com"}>Contact Us</button>
             <button className="register-button"  onClick={openPDFInNewPage}>Register</button>
-            <button className="about-button">About</button>
+            <button className="about-button" onClick={openPDFInNewPage1}>Resources</button>
 
           </div>
         </div>

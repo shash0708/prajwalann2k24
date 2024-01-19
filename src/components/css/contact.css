@@ -151,7 +151,7 @@
   .contact-button:hover,
   .register-button:hover {
     content: "";
-    color: #269688; 
+    color:cyan; 
     font-size:1.2rem/* Example hover color, adjust as needed */
   }
   
