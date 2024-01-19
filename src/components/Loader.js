@@ -4,18 +4,18 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Organizer from "./Organizer";
-import About1 from "./About1";
+// import About1 from "./About1";
 import Tracks from "./Tracks";
 import Gallery from "./Gallery";
 import Prize from "./Prize";
-import { Fade } from 'react-awesome-reveal';
-import Timer1 from "./Timer1";
+// import { Fade } from 'react-awesome-reveal';
+// import Timer1 from "./Timer1";
 import AllCollapseExample from "./Faq";
 import Faculty from "./Faculty";
-import Popup from "./Popup";
+// import Popup from "./Popup";
 import './css/loadaer.css'
 import MainPage from "./Contact";
-import Hackathon from "./Hackathon";
+// import Hackathon from "./Hackathon";
 import ControlledCarousel from "./Sebms";
 function Loader() {
   const [loading, setLoading] = useState(false);

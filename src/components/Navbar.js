@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
-import Timer from './Timer1';
+// import Timer from './Timer1';
 import "./css/Navbar.css";
 import "../App.css";
 const PDF_FILE_URL = "https://drive.google.com/drive/folders/18hcG1CnTTpnntdWiw6KQWiN7K1t93S3v?usp=sharing";
@@ -134,6 +134,17 @@ class Navbar extends Component {
               duration={20}
             >
               Know us
+            </Link></li>
+
+            <li><Link 
+              activeClass="active" 
+              to="t" 
+              spy={true} 
+              smooth={true} 
+              offset={10000} 
+              duration={20}
+            >
+              Contact Us
             </Link></li>
           </ul>
         </nav>
