@@ -1,0 +1,12 @@
+.sebms {
+    background-color: #000000;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); /* Two columns */
+    gap: 50px; 
+     
+    column-gap: -900px;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    margin-bottom: -5px; /* Offset the gap between rows */
+   }

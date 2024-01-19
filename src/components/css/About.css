@@ -43,7 +43,7 @@ p {
  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .card {
     padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
@@ -62,7 +62,7 @@ p {
   }
 }
 
-@media screen and (max-width: 2000px) and ( min-width :800px) {
+@media screen and (max-width: 2000px) and ( min-width :992px) {
   .About{
     overflow-x: hidden;
   }

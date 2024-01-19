@@ -210,7 +210,7 @@ label {
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .overlay {
         width: 100%;
         height: 100%;

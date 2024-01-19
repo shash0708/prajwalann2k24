@@ -1,4 +1,4 @@
-@media (max-width:2000px) and (min-width:800px) {
+@media (max-width:2000px) and (min-width:992px) {
     
 
 .faculty {
@@ -205,7 +205,7 @@ font-size: 30px;
 }
 
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 991px) {
     .faculty {
         background-color: #000000;
         width: 100%;

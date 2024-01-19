@@ -73,7 +73,7 @@
   }
   
   /* Responsive styles for 768px and below */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 991px) {
     .Contact {
       height: 50vh; /* Adjust height as needed for responsive design */
     }

@@ -12,6 +12,7 @@ import Faculty from "./Faculty";
 import Popup from "./Popup";
 import './css/loadaer.css'
 import Hackathon from "./Hackathon";
+import ControlledCarousel from "./Sebms";
 function Loader() {
   const [loading, setLoading] = useState(false);
 
@@ -51,6 +52,7 @@ function Loader() {
           <Prize />
           <AllCollapseExample />
           <Faculty/>
+          {/* <ControlledCarousel/> */}
         </>
       )}
     </div>

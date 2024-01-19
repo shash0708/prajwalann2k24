@@ -44,7 +44,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .Hackathon {
     max-width: 100%;
   }
