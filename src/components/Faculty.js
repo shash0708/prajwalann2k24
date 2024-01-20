@@ -67,7 +67,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
           </div>
           </div>
        
-        {/* <div className='ace'>
+        <div className='ace'>
           <h2>ACE Coordinator</h2>
           <div className='image3'>
             {ace.map((item, index) => (
@@ -79,7 +79,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
         {/* <div className='orgac'>
           <h2>Organizing Commitee</h2>
           
