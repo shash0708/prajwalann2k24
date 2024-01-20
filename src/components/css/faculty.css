@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-left:100px;
+    margin-left:80px;
     left: 627px;
     
     margin-top: -700px;
@@ -32,7 +32,7 @@
     font-size: 50px;
     color: white;
     margin-top: -200px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .patron p{
     font-size:20px
