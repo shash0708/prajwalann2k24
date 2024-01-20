@@ -80,7 +80,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
             ))}
           </div>
         </div>
-        {/* <div className='orgac'>
+        <div className='orgac'>
           <h2>Organizing Commitee</h2>
           
           <div className='image4'>
@@ -93,7 +93,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-        </div> */}
+        </div>
         {/* <div className='orgac1'>
           
           <div className='image5'>
