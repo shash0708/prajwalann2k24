@@ -53,7 +53,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
             ))}
           </div>
         </div>
-          {/* <div className='coordinator'>
+          <div className='coordinator'>
           <h2>Coordinator</h2>
           <div className='image2'>
           {coordinators.map((item, index) => (
@@ -65,7 +65,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-          </div> */}
+          </div>
        
         {/* <div className='ace'>
           <h2>ACE Coordinator</h2>
