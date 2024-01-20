@@ -70,15 +70,15 @@
     margin-right: 10px;
 }
 
-.convenor{
-    color: white;
-    display: flex;
+.convenor {
     align-items: center;
+    color: #fff;
+    display: flex;
     justify-content: center;
+    left: 520px;
+    margin-left: 100px;
+    margin-top: 88px;
     position: absolute;
-    margin-left:100px;
-    left: 627px;
-    margin-top: -200px;
 }
 .convenor h2{
     font-size: 40px;
