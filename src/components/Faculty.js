@@ -40,7 +40,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
             ))}
           </div>
         </div>
-         {/* <div className='convenor'>
+         <div className='convenor'>
           <h2>Convenor</h2>
           <div className='image1'>
             {convenor.map((item, index) => (
@@ -53,7 +53,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
             ))}
           </div>
         </div>
-          <div className='coordinator'>
+          {/* <div className='coordinator'>
           <h2>Coordinator</h2>
           <div className='image2'>
           {coordinators.map((item, index) => (
@@ -65,9 +65,9 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-          </div>
+          </div> */}
        
-        <div className='ace'>
+        {/* <div className='ace'>
           <h2>ACE Coordinator</h2>
           <div className='image3'>
             {ace.map((item, index) => (
@@ -79,8 +79,8 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-        </div>
-        <div className='orgac'>
+        </div> */}
+        {/* <div className='orgac'>
           <h2>Organizing Commitee</h2>
           
           <div className='image4'>
@@ -93,8 +93,8 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
               </div>
             ))}
           </div>
-        </div>
-        <div className='orgac1'>
+        </div> */}
+        {/* <div className='orgac1'>
           
           <div className='image5'>
             {orgac.map((item, index) => (
@@ -105,8 +105,8 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
 
               </div>
             ))}
-          </div>
-        </div>  */}
+          </div> */}
+        {/* </div>  */}
         </div>
       </div>
     
