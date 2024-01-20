@@ -11,29 +11,20 @@ class Navbar extends Component {
     isScrolled: false,
   };
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    const scrollTop = window.scrollY;
-    const isScrolled = scrollTop > -10;
-    this.setState({ isScrolled });
-  };
-
+  
   openPDFInNewPage = () => {
     window.open(PDF_FILE_URL, '_blank');
   };
 
   handleClick = () => {
+
+    
     this.setState({
       clicked: !this.state.clicked
     });
   };
+
+
 
   handleDownloadPDF = (url) => {
     const fileName = url.split("/").pop();
