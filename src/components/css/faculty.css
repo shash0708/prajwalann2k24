@@ -99,33 +99,34 @@
     gap: 80px;
 }
 
-.coordinator{
-    color: white;
-    display: flex;
+.coordinator {
     align-items: center;
-    justify-content: center;
-    position: absolute;
-    margin-left:100px;
-    left: 627px;
-    margin-top: 800px;
-}
-.coordinator h2{
-    font-size: 50px;
-
-}
-.coordinator p{
-    font-size: 20px;
-}
-
-.image2{
-    width: 100%;
-    max-width: 885px;
-    height: auto;
+    color: #fff;
     display: flex;
-    position: relative;
-    top: 300px;
-    left: -487px;
+    justify-content: center;
+    left: 627px;
+    margin-left: 100px;
+    margin-top: 953px;
+    position: absolute;
+}
+.coordinator h2 {
+    font-size: 50px;
+    position: absolute;
+    left: -80px;
+}
+.coordinator p {
+    font-size: 15px;
+}
+
+.image2 {
+    display: flex;
     gap: 80px;
+    height: auto;
+    position: relative;
+    left: -233px;
+    width: 100%;
+    margin-top: -160px;
+    max-width: 571px;
 }
 
 .image3{
