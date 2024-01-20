@@ -94,7 +94,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
             ))}
           </div>
         </div>
-        {/* <div className='orgac1'>
+        <div className='orgac1'>
           
           <div className='image5'>
             {orgac.map((item, index) => (
@@ -105,8 +105,8 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
 
               </div>
             ))}
-          </div> */}
-        {/* </div>  */}
+          </div>
+        </div> 
         </div>
       </div>
     
