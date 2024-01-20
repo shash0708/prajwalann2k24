@@ -25,7 +25,7 @@ function Loader() {
 
     const timeoutId = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 10000);
     return () => {
       clearTimeout(timeoutId);
     };
