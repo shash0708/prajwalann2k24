@@ -27,12 +27,12 @@
     margin-top: -700px;
     
 }
-.patron h2{
-    position: static;
+.patron h2 {
+    color: #fff;
     font-size: 50px;
-    color: white;
+    margin-left: -686px;
     margin-top: -200px;
-    margin-left: 10px;
+    position: absolute;
 }
 .patron p{
     font-size:20px
@@ -55,9 +55,9 @@
     height: auto;
     display: flex;
     position: relative;
-    top: 150px;
-    left: -357px;
     gap: 100px;
+    left: -334px;
+    top: 150px
 }
 .im{
     width: 100%;
