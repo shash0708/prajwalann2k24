@@ -1,6 +1,6 @@
 import hod from '../as/hod.jpeg'
 import ravi from '../as/rk.png'
-import surya from '../as/surya21.jpg'
+import surya from '../as/surya.jpg'
 import rs from '../as/ravis1.jpg'
 import r from '../as/ragh1.jpg'
 import d from '../as/03.png'
