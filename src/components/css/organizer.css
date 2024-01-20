@@ -49,19 +49,16 @@
   }
 
   
-  
   .rr123 img {
-    /* Existing styles for .rr123 img */
     width: 100%;
-    max-width: 800px;
+    max-width: 727px;
     height: auto;
     padding-left: 15%;
     padding-right: 15%;
     max-height: 250px;
     min-height: 250px;
-    margin-top: -55px;
-  }
-  
+    margin-top: -38px;
+}
   .rr123 h2 {
     /* Existing styles for .rr123 h2 */
     margin: 0;

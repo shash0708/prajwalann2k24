@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import bhImage from './as/ebm.jpg';
+import bhImage from './as/ebms.jpg';
 import bhImage1 from './as/sbm.jpg';   // Import the image file
 import './css/sebms.css';
 
