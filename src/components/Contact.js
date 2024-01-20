@@ -41,7 +41,7 @@ const MainPage = () => {
           </div>
           <div className="buttons-container">
          
-<button className="contact-button" onClick={() => window.location.href = "mailto:sssssz@gmail.com"}>Contact Us</button>
+<button className="contact-button" onClick={() => window.location.href = "mailto:srkrprajwalanofficial@gmail.com"}>Contact Us</button>
             <button className="register-button"  onClick={openPDFInNewPage}>Register</button>
             <button className="about-button" onClick={openPDFInNewPage1}>Resources</button>
 
