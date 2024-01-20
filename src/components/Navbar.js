@@ -54,7 +54,7 @@ class Navbar extends Component {
         <nav>
           <div>
             {/* Use an <img> tag for your logo */}
-            <h1>PRAJWALAN</h1>
+            <h1>PRAJWALAN 2K24</h1>
           </div>
           <div id="mobile" onClick={this.handleClick}>
             {clicked ? (

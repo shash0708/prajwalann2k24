@@ -36,7 +36,7 @@ function Home() {
         </Fade>
 
         <Fade triggerOnce={true} direction="down" duration={5000}>
-          <h1>PRAJWALAN 2024</h1>
+          <h1>PRAJWALAN 2K24</h1>
         </Fade>
         <div className="oo">
           <Fade triggerOnce={true} direction="up" duration={10000}>
