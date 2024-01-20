@@ -61,8 +61,8 @@ function Loader() {
           <Prize />
           <AllCollapseExample />
           <Faculty/>
-          <ControlledCarousel/>
-          <MainPage/>
+          {/* <ControlledCarousel/>
+          <MainPage/> */}
         </>
       )}
     </div>
