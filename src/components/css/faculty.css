@@ -131,29 +131,31 @@
 
 .image3{
     width: 100%;
-    max-width: 705px;
     height: auto;
     display: flex;
     position: relative;
-    top: 250px;
-    /* margin-top: 100px; */
-    left: -497px;
+    
+        left: -8px;
+        max-width: 549px;
+        top: 250px;
+    
     gap: 80px;
 }
 
-.ace{
-    color: white;
-    display: flex;
+.ace {
     align-items: center;
+    color: #fff;
+    display: flex;
     justify-content: center;
+    left: 417px;
+    margin-left: 94px;
+    margin-top: 1901px;
     position: absolute;
-    margin-left:100px;
-    left: 627px;
-    margin-top: 2100px;
 }
-.ace h2{
-font-size: 30px;
-
+.ace h2 {
+    font-size: 30px;
+    position: absolute;
+    left: 141px;
 }
 .ace p{
     font-size: 20px;
