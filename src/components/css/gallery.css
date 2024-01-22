@@ -41,21 +41,23 @@ font-family: 'Open Sans', sans-serif;
      /* Adjust as needed */
     };
     .slider-text {
-   
-        font-size:2.5rem;
-        font-weight: bolder;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        /* margin-bottom: -5px;
-        margin-top: -311px; */
-        position: absolute;
-    }
-
-   .sebms1 p{
-      font-size:2.5rem;
-      margin-top: 0px;
-    }
-    
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: -5px;
+      margin-top: -374px;
+      position: absolute;
+  }
+  .sebms1 p {
+    margin-left: 8px;
+    font-size: 2.5rem;
+    margin-top: 59px;
+}
+    .carousel {
+      position: relative;
+      margin-top: 31px;
+  }
         }
   
   
