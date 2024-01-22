@@ -7,7 +7,7 @@ export const MediaData = [
     {
         img:youtube,
         title: "youtube",
-        href:"https://www.linkedin.com/company/association-of-computer-engineers-ace/"
+        href:"https://www.linkedin.com/in/association-of-computer-engineers-ace/"
       },
       {
         img:facebook,
