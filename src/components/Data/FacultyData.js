@@ -38,7 +38,7 @@ export const convenor= [
       {
         img:sir,
         title: "Dr.G N V G Sirisha",
-        Desgn: "Assoc Professor-CSE"
+        Desgn: "Assoc. Professor-CSE"
        
       },
    
@@ -49,14 +49,14 @@ export const coordinators= [
     {
         img:k,
         title: "Dr.N.K.Kameswara Rao",
-        Desgn: "Assoc Professor-CSE"
+        Desgn: "Assoc. Professor-CSE"
        
       },
       
         {
             img:p,
             title: "Sri.K D V Pavan Kumar Varma",
-            Desgn: "Asst Professor-CSE"           
+            Desgn: "Asst. Professor-CSE"           
           },
    
       
@@ -67,14 +67,14 @@ export const ace= [
     {
         img:b,
         title: "Dr.P.Bharat Siva Varam",
-        Desgn: "Asst Professor-CSE"
+        Desgn: "Asst. Professor-CSE"
        
       },
       
       {
         img:h,
         title: "Smt.D.Hemalatha",
-        Desgn: "Asst Professor-CSE"
+        Desgn: "Asst. Professor-CSE"
        
       },
       
@@ -87,17 +87,17 @@ export const orgac= [
       {
         img:rs,
         title: "Sri.Ch Ravi Swaroop",
-        Desgn: "Asst.Prof,CSE"       
+        Desgn: "Asst. Professor,CSE"       
       },
       {
         img:r,
         title: "Sri.Ch Raghuram",
-        Desgn: "Asst.Prof,CSE"       
+        Desgn: "Asst. Professor,CSE"       
       },
       {
         img:d,
         title: "Sri.V S R K Raju Dandu",
-        Desgn: "Asst.Prof,CSE"       
+        Desgn: "Asst. Professor,CSE"       
       },
       
 ]
@@ -105,13 +105,13 @@ export const ord= [
     {
         img:ravi,
         title: "Dr.P Ravi Kiran Varma",
-        Desgn: "Asst.Prof,CSE"
+        Desgn: "Professor,CSE"
        
       },
       {
         img:surya,
         title: "Sri.S.Suryanarayanaraju",
-        Desgn: "Asst.Prof,CSE"       
+        Desgn: "Asst. Professor,CSE"       
       },
       
    
