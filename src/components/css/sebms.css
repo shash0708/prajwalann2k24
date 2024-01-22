@@ -31,6 +31,13 @@ font-family: 'Open Sans', sans-serif;
   color: #c2c2c2;
   
   }
+  .carousel-container p{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #c2c2c2;
+  }
   }
   
   /* For screens up to 991px */
@@ -64,6 +71,13 @@ font-family: 'Open Sans', sans-serif;
       font-family: 'Open Sans', sans-serif;
       color: #c2c2c2;
       
+      }
+      .carousel-container p{
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #c2c2c2;
       }
     
         }

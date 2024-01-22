@@ -75,15 +75,15 @@
   margin-top: -35px;
   display: flex;
   color: white;
+  font-weight: bolder;
   justify-content: center;
   margin-left: -287px;
   position: absolute;
   left: 280px;
 }
-
 .text h1{
   font-family: 'Open Sans', sans-serif;   
-   font-size:3.5rem;
+   font-size:4.2rem;
    font-weight: 300;
    margin-top: 28px
    
@@ -96,6 +96,8 @@
   }
 .text h1{
   font-family: 'samarkan';
+  margin-left:-24px;
+
 }
 .wert{
   width: 100%;
@@ -111,7 +113,9 @@ p,
 span {
   color: white;
 }
-
+p{
+  margin-left: -48px 
+}
 @media screen and (max-width: 991px) {
   .home{
     
@@ -152,6 +156,7 @@ span {
   text-align: justify;
   margin-top: 81px;
   display: flex;
+  font-weight: 550;
   justify-content: center;
   font-size: 15px;
   margin-left: -111px;
@@ -196,12 +201,13 @@ span {
   left: 1px;
 }
 .text h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-top: 199px;
-  margin-left: -158px;
+  font-weight: 400;
+  margin-left: -258px;
   position: absolute;
   top: -188px;
-  left: 259px;
+  left: 320px;
 }
 .overlay {
   width: 100%;

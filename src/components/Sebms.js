@@ -24,9 +24,11 @@ function ControlledCarousel() {
         <Carousel className='carousel-image'activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img src={bhImage} alt="First slide" />
+            <p>Executive Body Members</p>
           </Carousel.Item>
           <Carousel.Item>
             <img src={bhImage1} alt="Second slide" />
+            <p>Senior Body Members</p>
           </Carousel.Item>
         
         </Carousel>
