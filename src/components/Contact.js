@@ -47,7 +47,7 @@ const MainPage = () => {
 
           </div>
           <footer className='fk'>
-          <p>&#169; 2024| all rights reserved | Association of computer engineers | dept of CSE ,Srkr Engineering College</p>
+          <p>&#169; 2024| all rights reserved | Association of Computer Engineers | Dept of CSE ,SRKR Engineering College</p>
           </footer>
         </div>
        
