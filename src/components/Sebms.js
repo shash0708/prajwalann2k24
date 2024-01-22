@@ -15,7 +15,11 @@ function ControlledCarousel() {
     <div className='sebms'>
       <div className="slider-text">
        <p>Our Student Chapter</p>
+       <div>Association of Computer Engineers</div>
+
        </div>
+   
+
       <div className="carousel-container">
         <Carousel className='carousel-image'activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
@@ -24,6 +28,7 @@ function ControlledCarousel() {
           <Carousel.Item>
             <img src={bhImage1} alt="Second slide" />
           </Carousel.Item>
+        
         </Carousel>
    </div>
     </div>

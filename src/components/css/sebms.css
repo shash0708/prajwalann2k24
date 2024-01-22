@@ -22,6 +22,15 @@ text-align: center;
 font-family: 'Open Sans', sans-serif;
 
 }
+.slider-text div {
+   
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #c2c2c2;
+  
+  }
   }
   
   /* For screens up to 991px */
@@ -44,9 +53,18 @@ font-family: 'Open Sans', sans-serif;
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         margin-bottom: -5px;
-        margin-top: -311px;
+        margin-top: -374px;
         position: absolute;
     }
+    .slider-text div {
+   
+      font-size:1.2rem;
+      font-weight: bolder;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      color: #c2c2c2;
+      
+      }
     
         }
   
