@@ -56,7 +56,7 @@ export const coordinators= [
         {
             img:p,
             title: "Sri.K D V Pavan Kumar Varma",
-            Desgn: "Assoc Professor-CSE"           
+            Desgn: "Asst Professor-CSE"           
           },
    
       
@@ -67,14 +67,14 @@ export const ace= [
     {
         img:b,
         title: "Dr.P.Bharat Siva Varam",
-        Desgn: "Assist Professor-CSE"
+        Desgn: "Asst Professor-CSE"
        
       },
       
       {
         img:h,
         title: "Smt.D.Hemalatha",
-        Desgn: "Assist Professor-CSE"
+        Desgn: "Asst Professor-CSE"
        
       },
       
