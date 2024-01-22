@@ -126,10 +126,10 @@
       /* Two columns */
    
     /* Add these styles to your existing CSS file */
-  .buttons-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px; /* Adjust as needed */
+    .buttons-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: -17px;
   }
   .about-button,
   .contact-button,
@@ -169,11 +169,11 @@
       font-size: 1rem;
     }
     
-    
     .social-media {
       display: flex;
       align-items: center;
-    }
+      margin-top: 47px;
+  }
   
     .social-icon {
       width: 50px;

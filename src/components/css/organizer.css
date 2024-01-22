@@ -30,24 +30,22 @@
  
 
   
-  .rr123 {
-    /* Existing styles for .rr123 */
-    color: #c2c2c2;
-    background-color: #131bbd3b;
-    border: 1px solid #FFFFFF;
-    border-radius: 25px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin-bottom: -20px;
-    width: 500px;
-    height: 550px;
-    margin-left: 50px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth animation */
+    .rr123 {
+      color: #c2c2c2;
+      background-color: #131bbd3b;
+      border: 1px solid #FFFFFF;
+      border-radius: 25px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      margin-bottom: -20px;
+      width: 509px;
+      height: 550px;
+      margin-left: 50px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-
   
   .rr123 img {
     width: 100%;
@@ -59,16 +57,13 @@
     min-height: 250px;
     margin-top: -38px;
 }
-  .rr123 h2 {
-    /* Existing styles for .rr123 h2 */
-    margin: 0;
-    font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.235;
-    font-weight: 700;
-  }
-  
+.rr123 h2 {
+  margin: 0;
+  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.235;
+  font-weight: 700;
+}
   .rr123 p {
     /* Existing styles for .rr123 p */
     margin: 0;

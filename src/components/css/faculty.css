@@ -69,10 +69,16 @@
     left: -600px;
     margin-right: 10px;
 }
+@font-face {
+  
+    font-family:'samarkan';
+    src: url('../as/SAMAN___.TTF') format('truetype');
+  }
 
 .convenor {
     align-items: center;
     color: #fff;
+    font-family: 'samarkan';
     display: flex;
     justify-content: center;
     left: 520px;
@@ -83,6 +89,7 @@
 .convenor h2 {
     font-size: 40px;
     margin-left: 21px;
+  
 }
 .convenor p{
     font-size: 20px;
