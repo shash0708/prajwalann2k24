@@ -19,7 +19,7 @@ function About() {
 
       <p className='vv'>"Association Of Computer Engineers" is coming up with another fantastic hackathon called "Prajwalan 2k24" 
  Join this dynamic event to enhance your critical thinking, collaborate with skilled teams, and gain invaluable experience.
-This 24hr hackathon fills up with exciting prizes, interesting refreshments, fun event, goodies and lot more. ML, Web-development, Cloud computing, Cybersecurity, IoT etc.
+This 24hr hackathon fills up with exciting prizes, interesting refreshments, fun event, goodies and lot more. Our highly qualified evaluators with a pinch of mentoring makes it more exhilarating.This hackathon is encouraging many booming technologies like  ML, Web-Development, Cloud Computing, CyberSecurity, IoT etc.
 Your presence is highly appreciated seize the opportunity to elevate your skills and create lasting connections!</p>
    </div>
   </div>
