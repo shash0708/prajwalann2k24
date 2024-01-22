@@ -82,7 +82,7 @@
 }
 .convenor h2 {
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 3px;
 }
 .convenor p{
     font-size: 20px;
@@ -110,8 +110,8 @@
 }
 .coordinator h2 {
     font-size: 50px;
+    left: -131px;
     position: absolute;
-    left: -48px;
 }
 .coordinator p {
     font-size: 17px;
@@ -152,9 +152,8 @@
     position: absolute;
 }
 .ace h2 {
-    font-size: 3=40px;
-    position: absolute;
-    left: 141px;
+    font-size: 34px;
+    left: 78px;
 }
 .ace p{
     font-size: 20px;
