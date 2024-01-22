@@ -28,7 +28,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
     className='overall'>
         <div 
     className='patron'>
-          <h2>Patron</h2>
+          <h2><u>Patron</u></h2>
           <div className='image'>
             {patron.map((item, index) => (
               <div >
@@ -41,7 +41,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
           </div>
         </div>
          <div className='convenor'>
-          <h2>Convenor</h2>
+          <h2><u>Convenor</u></h2>
           <div className='image1'>
             {convenor.map((item, index) => (
               <div key={index}>
@@ -54,7 +54,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
           </div>
         </div>
           <div className='coordinator'>
-          <h2>Coordinator</h2>
+          <h2><u>Coordinator</u></h2>
           <div className='image2'>
           {coordinators.map((item, index) => (
               <div key={index}>
@@ -68,7 +68,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
           </div>
        
         <div className='ace'>
-          <h2>ACE Coordinator</h2>
+          <h2><u>ACE Coordinator</u></h2>
           <div className='image3'>
             {ace.map((item, index) => (
               <div key={index}>
@@ -81,7 +81,7 @@ const op=useTransform(scrollYProgress,[0,1],[0.6,1]);
           </div>
         </div>
         <div className='orgac'>
-          <h2>Organizing Commitee</h2>
+          <h2><u>Organizing Commitee</u></h2>
           
           <div className='image4'>
             {ord.map((item, index) => (
