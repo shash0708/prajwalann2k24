@@ -16,7 +16,7 @@ import sir from '../as/sirisha1.jpg'
 export const patron = [
     {
         img:dr,
-        title: "Dr.M.Jagapathi Raju",
+        title: "Dr.M. Jagapathi Raju",
         Desgn: "Director,SRKREC"
        
       },
@@ -37,7 +37,7 @@ export const convenor= [
       },
       {
         img:sir,
-        title: "Dr.G N V G Sirisha",
+        title: "Dr. G N V G Sirisha",
         Desgn: "Assoc. Professor-CSE"
        
       },
@@ -48,7 +48,7 @@ export const convenor= [
 export const coordinators= [
     {
         img:k,
-        title: "Dr.N.K.Kameswara Rao",
+        title: "Dr.N.K. Kameswara Rao",
         Desgn: "Assoc. Professor-CSE"
        
       },
@@ -66,14 +66,14 @@ export const coordinators= [
 export const ace= [
     {
         img:b,
-        title: "Dr.P.Bharat Siva Varam",
+        title: "Dr.P. Bharat Siva Varma",
         Desgn: "Asst. Professor-CSE"
        
       },
       
       {
         img:h,
-        title: "Smt.D.Hemalatha",
+        title: "Smt.D. Hemalatha",
         Desgn: "Asst. Professor-CSE"
        
       },
@@ -110,7 +110,7 @@ export const ord= [
       },
       {
         img:surya,
-        title: "Sri.S.Suryanarayanaraju",
+        title: "Sri.S. Suryanarayanaraju",
         Desgn: "Asst. Professor,CSE"       
       },
       

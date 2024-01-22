@@ -100,11 +100,10 @@
       justify-content: center;
       background-color: #323232;
       align-items: center;
-      height: 40vh;
-      margin-top:1px;
+      height: 53vh;
+      margin-top: 3px;
       box-sizing: border-box;
-     
-    }
+  }
   /*   
     .Contact p {
       padding-top: 20px; /* Adjust the padding as needed */
@@ -164,10 +163,9 @@
     } */
     .kk {
       position: absolute;
-      margin-top: -202px;
+      margin-top: -249px;
       color: white;
       font-size: 1.3em;
-    
   }
     
   .social-media {
@@ -182,8 +180,10 @@
       margin-bottom: 30px; /* Adjust the margin-bottom for spacing between rows */
     }
     .fk {
-      margin: 25px;
-     
+      padding: 59px;
+      margin-top: -77px;
   }
+  
+  
  
   }
