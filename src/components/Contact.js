@@ -46,7 +46,7 @@ const MainPage = () => {
             <button className="about-button" onClick={openPDFInNewPage1}>Resources</button>
 
           </div>
-          <footer>
+          <footer className='fk'>
           <p>&#169; 2024| all rights reserved | Association of computer engineers | dept of CSE ,Srkr Engineering College</p>
           </footer>
         </div>
