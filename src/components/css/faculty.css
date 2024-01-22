@@ -82,20 +82,20 @@
 }
 .convenor h2 {
     font-size: 40px;
-    margin-left: 3px;
+    margin-left: 21px;
 }
 .convenor p{
     font-size: 20px;
 }
 .image1 {
-    width: 100%;
-    max-width: 705px;
-    height: auto;
     display: flex;
-    position: relative;
     gap: 100px;
-    left: -467px;
+    height: auto;
+    left: -435px;
+    max-width: 705px;
+    position: relative;
     top: 221px;
+    width: 100%;
 }
 
 .coordinator {
@@ -110,7 +110,7 @@
 }
 .coordinator h2 {
     font-size: 40px;
-    left: -123px;
+    left: -98px;
     position: absolute;
 }
 .coordinator p {
