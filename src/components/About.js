@@ -17,7 +17,7 @@ function About() {
             <h1 className='vv1'>The Hackathon</h1>
             </Fade>
 
-      <p className='vv'>"Assoication Of Computer Engineers" is coming up with another fantastic hackathon called "Prajwalan 2k24" 
+      <p className='vv'>"Association Of Computer Engineers" is coming up with another fantastic hackathon called "Prajwalan 2k24" 
  Join this dynamic event to enhance your critical thinking, collaborate with skilled teams, and gain invaluable experience.
 This 24hr hackathon fills up with exciting prizes, interesting refreshments, fun event, goodies and lot more. ML, Web-development, Cloud computing, Cybersecurity, IoT etc.
 Your presence is highly appreciated seize the opportunity to elevate your skills and create lasting connections!</p>
