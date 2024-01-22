@@ -67,7 +67,7 @@ export const ace= [
     {
         img:b,
         title: "Dr.P. Bharat Siva Varma",
-        Desgn: "Asst. Professor-CSE"
+        Desgn: "Assoc. Professor-CSE"
        
       },
       

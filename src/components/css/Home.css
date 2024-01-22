@@ -89,11 +89,8 @@
    
 }
 
-@font-face {
-  
-    font-family:'samarkan';
-    src: url('../as/SAMAN___.TTF') format('truetype');
-  }
+
+
 .text h1{
   font-family: 'samarkan';
   margin-left:-24px;
@@ -104,9 +101,9 @@
   max-width: 300px;
   z-index: 1;
 }
-.col{
+/* .col{
 flex-direction: row !important;
-}
+} */
 
 .text h1,
 p,
@@ -260,9 +257,9 @@ label {
   margin-left: 10px;
   display: inline-block; /* Align label with input */
 }
-.col{
+/* .col{
   flex-direction: row !important;
-  }
+  } */
 
 }
 

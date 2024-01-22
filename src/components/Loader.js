@@ -15,6 +15,7 @@ import Faculty from "./Faculty";
 // import Popup from "./Popup";
 import './css/loadaer.css'
 import MainPage from "./Contact";
+import Poster from "./Poster";
 // import Hackathon from "./Hackathon";
 import ControlledCarousel from "./Sebms";
 function Loader() {
@@ -25,7 +26,7 @@ function Loader() {
 
     const timeoutId = setTimeout(() => {
       setLoading(false);
-    }, 4500);
+    }, 3000);
     return () => {
       clearTimeout(timeoutId);
     };
@@ -41,6 +42,7 @@ function Loader() {
         <>
           <Navbar />
           <Home />
+   {/* <Poster/> */}
           {/* <Popup /> */}
         {/* <Timer1/> */}
             {/* <About1 /> */}

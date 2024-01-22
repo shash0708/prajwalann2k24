@@ -1,16 +1,115 @@
-.es {
-    background-color: #000000;
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 0fr); /* Two columns */
-    gap: 50px; 
-     
-    column-gap: -900px;
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    margin-bottom: -5px; /* Offset the gap between rows */
-   }
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 
-   @media screen and (max-width:991px) {
- 
-   }
+.timer-container{
+    color: rgb(211, 37, 37);
+    width: 100%;
+    height: 100%;
+}
+
+.timer{
+
+     display: flex;
+     flex:column;
+     align-items: center;
+     justify-content: center;
+     padding-bottom: 7px;
+     padding-top: 2px;
+     width: 100%;
+     height: 100%;
+}
+
+.timer div:first-child{
+    text-align:center;
+}
+
+.timer-icon{
+    font-size: 8rem;
+}
+h2{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.timer div:first-child p{
+    color: white;
+
+}
+
+.timer div:last-child {
+    border: 1px solid white;
+    border-radius: -109px;
+    display: grid;
+    grid-template-columns: repeat(7,2fr);
+    margin-top: -6em;
+    padding: 3em;
+    text-align: center;
+}
+section p:first-child, .timer div:last-child span {
+    font-size: 3em;
+    margin-left: -17px;
+    margin-top: -12px;
+}
+small {
+    font-size: 80%;
+    margin-left: 21px;
+}
+
+@media (max-width: 991px) {
+    .timer-container{
+        color: rgb(211, 37, 37);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .timer{
+    
+         display: flex;
+         flex:column;
+         align-items: center;
+         justify-content: center;
+         padding-bottom: 7px;
+         padding-top: 2px;
+         width: 100%;
+         height: 100%;
+    }
+    
+    .timer div:first-child{
+        text-align:center;
+    }
+    
+    .timer-icon{
+        font-size: 8rem;
+    }
+    h2{
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    
+    .timer div:first-child p{
+        color: white;
+    
+    }
+    
+    .timer div:last-child {
+        border: 1px solid white;
+        border-radius: -109px;
+        display: grid;
+        grid-template-columns: repeat(7,2fr);
+        margin-top: -6em;
+        padding: 3em;
+        text-align: center;
+    }
+    section p:first-child, .timer div:last-child span {
+        font-size: 3em;
+        margin-left: -17px;
+        margin-top: -12px;
+    }
+    small {
+        font-size: 80%;
+        margin-left: 21px;
+    }
+}

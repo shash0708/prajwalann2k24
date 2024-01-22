@@ -54,19 +54,24 @@ const Popup = () => {
                   <div className="title" id="end-date" style={{ display: 'none' }}></div>
                   <div className="col">
                     <div className="io">
-                      <label htmlFor="" className='gg'>Days
+                      <label htmlFor="" className='gg'>
+                      <p>Days</p>
                         <br />
+                        
                         <input type="text" readOnly value={days} />
                       </label>
                     </div>
                     <div>
-                      <label htmlFor="">Hours
+                      <label htmlFor="" className='gg1'>
+                      <p>Hours</p>
+
                         <br />
                         <input type="text" readOnly value={hours} />
                       </label>
                     </div>
                     <div>
-                      <label htmlFor="">Minutes
+                      <label htmlFor="" className='gg2'>
+                        <p>Minutes</p>
                         <br />
                         <input type="text" readOnly value={minutes} />
                       </label>

@@ -140,6 +140,7 @@
       margin-top: 2px;
       justify-content: space-evenly;
       display: flex;
+      text-align: justify;
       align-items: center;
       text-align: start;
       margin-left: 22px;

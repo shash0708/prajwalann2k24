@@ -37,7 +37,7 @@ function AllCollapseExample() {
         This year, the Prajwalan hackathon will be conducted in complete in-person mode.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
+      {/* <Accordion.Item eventKey="5">
         <Accordion.Header>What are Important Dates?</Accordion.Header>
         <Accordion.Body>
         <ul>
@@ -45,7 +45,7 @@ function AllCollapseExample() {
           <li></li>
         </ul>
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> */}
     </Accordion>
     </div>
   );

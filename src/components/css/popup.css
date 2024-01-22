@@ -38,6 +38,25 @@
     line-height: 25px;
 }
 
+.gg p {
+    margin-top: -24px;
+    color: white;
+    position: absolute;
+    left: 52px;
+}
+
+.gg1 p {
+    margin-top: -24px;
+    color: white;
+    position: absolute;
+    left: 174px;
+}
+.gg2 p {
+    margin-top: -24px;
+    color: white;
+    position: absolute;
+    left: 296px;
+}
 .kop {
     display: block;
     width: 150px;
@@ -169,6 +188,8 @@ text-align: center;
 }
 .col {
     display: flex;
+    flex-direction: row !important;
+    align-items: center;
     text-align: center;
 }
 .col div {
@@ -231,19 +252,38 @@ label {
         position: absolute;
         top: 250px;
     }
-    .col {
-        margin-top: 8px;
-        width: 150px;
-        display: flex;
-    /* flex-wrap: wrap;
-    flex-direction: row; */
+ .col {
+    margin-top: 537px;
+    width: -24px;
     justify-content: center;
-    display: flex;
+    margin-left: -6px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     text-align: center;
-        color: rgb(255, 255, 255);
-    }
-    
+    color: rgb(0 0 0);
+}
+body .gg p {
+    margin-top: 531px;
+    color: white;
+    position: absolute;
+    left: 259px;
+}
+
+body .gg1 p {
+    margin-top: 605px;
+    color: white;
+    position: absolute;
+    left: 251px;
+}
+
+body .gg2 p {
+    margin-top: 682px;
+    color: white;
+    position: absolute;
+    left: 247px;
+}
+
     .col div {
         width: 300px ;
                 /* justify-content: center; */
