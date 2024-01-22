@@ -80,23 +80,22 @@
     margin-top: 88px;
     position: absolute;
 }
-.convenor h2{
-    font-size: 40px;
+.convenor h2 {
+    font-size: 50px;
     margin-left: 50px;
-    
 }
 .convenor p{
     font-size: 20px;
 }
-.image1{
+.image1 {
     width: 100%;
-    max-width: 350px;
+    max-width: 705px;
     height: auto;
     display: flex;
     position: relative;
-    top: 210px;
-    left: -280px;
-    gap: 80px;
+    gap: 100px;
+    left: -467px;
+    top: 221px;
 }
 
 .coordinator {
@@ -112,7 +111,7 @@
 .coordinator h2 {
     font-size: 50px;
     position: absolute;
-    left: -80px;
+    left: -48px;
 }
 .coordinator p {
     font-size: 17px;
@@ -153,7 +152,7 @@
     position: absolute;
 }
 .ace h2 {
-    font-size: 30px;
+    font-size: 3=40px;
     position: absolute;
     left: 141px;
 }
@@ -176,6 +175,7 @@
     font-size: 40px;
     position: absolute;
     margin-left: 166px;
+  
 }
 .orgac p{
     font-size: 20px;
@@ -231,6 +231,17 @@
         font-size: 20px;
         margin-top: 20px;
     }
+    .patron p{
+    
+            position: static;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+            text-align: justify;
+            margin-top: 20px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+       
+    }
     
    
     .patron h2 {
@@ -266,13 +277,16 @@
     
     .convenor p{
         font-size: 20px;
+        margin-left: 10px 
          
     }
 
     .image1 {
         width: 306px;
         max-width: 100%;
-        margin-top: 18px;
+        height: 100%;
+        margin-left: 3px;
+        margin-top: 20px;
     }
     
     
@@ -296,6 +310,7 @@
  .coordinator p{
     /* Adjust as needed */
  font-size: 20px;
+ margin-left: 10px 
 }
 
 .coordinator h2 {
@@ -323,6 +338,7 @@
 }
 .ace p{
     font-size: 20px;
+    margin-left: 10px 
 
 }
 .image3 {
@@ -349,6 +365,7 @@
 }
 .orgac p{
     font-size: 20px;
+    margin-left: 10px 
 }
 .image4 {
     margin-left: 462px;
@@ -373,6 +390,7 @@
 }
 .orgac1 p{
     font-size: 20px;
+    margin-left: 10px 
 }
 .image5 {
     margin-left: 421px;

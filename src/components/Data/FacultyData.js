@@ -10,7 +10,7 @@ import k from '../as/kam.jpg'
 import p from '../as/pavan.jpg'
 import dr from '../as/dd.jpg'
 import pr from '../as/P.png'
-
+import sir from '../as/sirisha1.jpg'
 
 
 export const patron = [
@@ -33,6 +33,12 @@ export const convenor= [
         img:hod,
         title: "Dr.V. Chandra Sekhar",
         Desgn: "HOD,Dept.of CSE"
+       
+      },
+      {
+        img:sir,
+        title: "Dr.G N V G Sirisha",
+        Desgn: "Assoc Professor-CSE"
        
       },
    
