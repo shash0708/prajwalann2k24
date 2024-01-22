@@ -19,7 +19,7 @@ function Organizer() {
           <div className='rr123'>
       <img src='assests/ace.svg'  alt='/'/>
       <h2>Association of Computer Engineers</h2>
-        <p>Within the College, the Department houses the Association of Computer Engineering Students (ACE), a dynamic platform that orchestrates various technical events throughout the year. From technical quizzes to paper presentations, group discussions, debates, and programming contests, ACE enhances the technical and communication skills of not only computer science students but also the broader student community.</p>  </div>
+        <p>The Department of Computer Science Engineering houses the Association of Computer Engineering Students (ACE), a dynamic platform that orchestrates various technical events throughout the year. From technical quizzes to paper presentations, group discussions, debates, and programming contests, ACE enhances the technical and communication skills of not only computer science students but also the broader student community.</p>  </div>
    
           {/* <div className='rr'>
       <img src='assests/iot.svg'  alt='/'/>
