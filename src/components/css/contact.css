@@ -80,9 +80,10 @@
   
   
   .social-media {
-    display: flex;
     align-items: center;
-  }
+    display: flex;
+    margin-top: 38px;
+}
 
   .social-icon {
     width: 70px;

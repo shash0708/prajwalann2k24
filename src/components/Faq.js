@@ -37,6 +37,12 @@ function AllCollapseExample() {
         This year, the Prajwalan hackathon will be conducted in complete in-person mode.
         </Accordion.Body>
       </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>Will the hackathon be in person or online this year?</Accordion.Header>
+        <Accordion.Body>
+        This year, the Prajwalan hackathon will be conducted in complete in-person mode.
+        </Accordion.Body>
+      </Accordion.Item>
     </Accordion>
     </div>
   );
