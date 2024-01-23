@@ -51,7 +51,7 @@ function Poster() {
             
           >
             <img
-              src='assests/poster.png'
+              src='assests/poster1.png'
               alt='/'
               
               style={{ width: '1000px', maxWidth:'100%',maxHeight:'100%',height: '600px', objectFit: 'contain' }}
