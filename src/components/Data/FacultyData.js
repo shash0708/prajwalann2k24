@@ -1,16 +1,16 @@
-import hod from '../as/hod.jpeg'
-import ravi from '../as/rk4.png'
-import surya from '../as/su.png'
-import rs from '../as/ravis1.jpg'
-import r from '../as/ragh1.jpg'
-import d from '../as/03.png'
+import hod from '../as/h.png'
+import ravi from '../as/r_m.png'
+import surya from '../as/su_m.png'
+import rs from '../as/ra_m.png'
+import r from '../as/rag_m.png'
+import d from '../as/raj_m.png'
 import b from '../as/bh.jpg'
 import h from '../as/hema2.jpg'
 import k from '../as/kam.jpg'
 import p from '../as/pavan.jpg'
 import dr from '../as/dd.jpg'
 import pr from '../as/P.png'
-import sir from '../as/sirisha1.jpg'
+import sir from '../as/s.png'
 
 
 export const patron = [
