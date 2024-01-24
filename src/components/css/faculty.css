@@ -48,7 +48,7 @@
     }
     .patron  img, .convenor img{
         border-radius: 25px;
-        height: 30vh;
+      
     }
     .patron p,.convenor p,.coordinator p,.ace p,.orgac p{
         margin: 8px;
