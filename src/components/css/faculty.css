@@ -1,5 +1,6 @@
 .faculty{
     background-color: #000000;
+   
 }
 
 .patron h2,.convenor h2,.coordinator h2,.ace h2,.orgac h2{
@@ -55,9 +56,8 @@
         margin: 8px;
     }
     .faculty{
-        background-color: #000000;
-
-        margin-bottom:68vh;
+        
+        height:830vh;
     }
 }
 
