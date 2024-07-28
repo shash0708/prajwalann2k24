@@ -42,7 +42,7 @@ function Loader() {
         <>
           <Navbar />
           <Home />
-   <Poster/>
+   // <Poster/>
           {/* <Popup /> */}
         {/* <Timer1/> */}
             {/* <About1 /> */}
