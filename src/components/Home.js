@@ -46,7 +46,7 @@ function Home() {
           </Fade>
         </div>
         <div className='tim'>
-        <Popup />
+        // <Popup />
         {/* <Timer/> */}
         </div>
       </div>
